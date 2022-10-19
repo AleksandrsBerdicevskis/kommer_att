@@ -1,0 +1,3097 @@
+{
+"kwic": [
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 159451,
+"start": 1,
+"end": 5
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/musik/artikel_25579.svd",
+"text_date": "2001-01-26 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "Inte",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|inte|",
+"ref": "01",
+"dephead": "02",
+"deprel": "AA"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "02",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "Honneck",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"ref": "03",
+"dephead": "02",
+"deprel": "SS"
+},
+{
+"word": "att",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|att|",
+"ref": "04",
+"dephead": "02",
+"deprel": "OO"
+},
+{
+"word": "st\u00e5",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|st\u00e5|",
+"ref": "05",
+"dephead": "04",
+"deprel": "UA"
+},
+{
+"word": "i",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|i|i_v\u00e4gen|",
+"ref": "06",
+"dephead": "05",
+"deprel": "PL"
+},
+{
+"word": "v\u00e4gen",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|v\u00e4g|i_v\u00e4gen:06|",
+"ref": "07",
+"dephead": "06",
+"deprel": "HD"
+},
+{
+"word": "f\u00f6r",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|f\u00f6r|",
+"ref": "08",
+"dephead": "05",
+"deprel": "OA"
+},
+{
+"word": "Radiosymfonikerna",
+"pos": "NN",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"lemma": "|radiosymfoniker|Radiosymfoniker|",
+"ref": "09",
+"dephead": "08",
+"deprel": "PA"
+},
+{
+"word": "p\u00e5",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|p\u00e5|",
+"ref": "10",
+"dephead": "09",
+"deprel": "ET"
+},
+{
+"word": "den",
+"pos": "DT",
+"msd": "DT.UTR.SIN.DEF",
+"lemma": "|en|den|",
+"ref": "11",
+"dephead": "13",
+"deprel": "DT"
+},
+{
+"word": "internationella",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"lemma": "|internationell|",
+"ref": "12",
+"dephead": "13",
+"deprel": "AT"
+},
+{
+"word": "arenan",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|arena|",
+"ref": "13",
+"dephead": "10",
+"deprel": "PA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "14",
+"dephead": "02",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 214026,
+"start": 26,
+"end": 32
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/litteratur/artikel_25551.svd",
+"text_date": "2001-01-15 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "N\u00e4r",
+"pos": "HA",
+"msd": "HA",
+"lemma": "|n\u00e4r|",
+"ref": "01",
+"dephead": "11",
+"deprel": "TA"
+},
+{
+"word": "Ylva",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Ylva|",
+"ref": "02",
+"dephead": "11",
+"deprel": "SS"
+},
+{
+"word": "Karlsson",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Karlsson|",
+"ref": "03",
+"dephead": "02",
+"deprel": "HD"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "04",
+"dephead": "02",
+"deprel": "IK"
+},
+{
+"word": "som",
+"pos": "HP",
+"msd": "HP.-.-.-",
+"lemma": "|",
+"ref": "05",
+"dephead": "06",
+"deprel": "SS"
+},
+{
+"word": "debuterade",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|debutera|",
+"ref": "06",
+"dephead": "02",
+"deprel": "ET"
+},
+{
+"word": "1998",
+"pos": "RG",
+"msd": "RG.NOM",
+"lemma": "|",
+"ref": "07",
+"dephead": "06",
+"deprel": "OO"
+},
+{
+"word": "med",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|med|",
+"ref": "08",
+"dephead": "07",
+"deprel": "ET"
+},
+{
+"word": "Tova",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Tova|",
+"ref": "09",
+"dephead": "08",
+"deprel": "PA"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "10",
+"dephead": "02",
+"deprel": "IK"
+},
+{
+"word": "best\u00e4mmer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|best\u00e4mma|best\u00e4mma_sig|",
+"ref": "11",
+"dephead": "27",
+"deprel": "TA"
+},
+{
+"word": "sig",
+"pos": "PN",
+"msd": "PN.UTR+NEU.SIN+PLU.DEF.OBJ",
+"lemma": "|sig|best\u00e4mma_sig:11|",
+"ref": "12",
+"dephead": "11",
+"deprel": "OO"
+},
+{
+"word": "f\u00f6r",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|f\u00f6r|",
+"ref": "13",
+"dephead": "11",
+"deprel": "AA"
+},
+{
+"word": "att",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|att|",
+"ref": "14",
+"dephead": "13",
+"deprel": "HD"
+},
+{
+"word": "hon",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|hon|",
+"ref": "15",
+"dephead": "16",
+"deprel": "SS"
+},
+{
+"word": "har",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|ha|",
+"ref": "16",
+"dephead": "13",
+"deprel": "UA"
+},
+{
+"word": "en",
+"pos": "DT",
+"msd": "DT.UTR.SIN.IND",
+"lemma": "|en|",
+"ref": "17",
+"dephead": "18",
+"deprel": "DT"
+},
+{
+"word": "historia",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|historia|",
+"ref": "18",
+"dephead": "16",
+"deprel": "OO"
+},
+{
+"word": "bortom",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|bortom|",
+"ref": "19",
+"dephead": "16",
+"deprel": "RA"
+},
+{
+"word": "det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "20",
+"dephead": "19",
+"deprel": "PA"
+},
+{
+"word": "detaljredovisade",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|detaljredovisa|",
+"ref": "21",
+"dephead": "16",
+"deprel": "VG"
+},
+{
+"word": "uppenbart",
+"pos": "JJ",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"lemma": "|uppenbar|",
+"ref": "22",
+"dephead": "23",
+"deprel": "AT"
+},
+{
+"word": "sj\u00e4lvrelaterade",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.NOM",
+"lemma": "|",
+"ref": "23",
+"dephead": "21",
+"deprel": "XX"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "24",
+"dephead": "25",
+"deprel": "SS"
+},
+{
+"word": "ber\u00e4tta",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|ber\u00e4tta|",
+"ref": "25",
+"dephead": "23",
+"deprel": "EF"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "26",
+"dephead": "11",
+"deprel": "IK"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "27",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "hon",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|hon|",
+"ref": "28",
+"dephead": "27",
+"deprel": "SS"
+},
+{
+"word": "med",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|med|med_tiden|",
+"ref": "29",
+"dephead": "27",
+"deprel": "AA"
+},
+{
+"word": "tiden",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|tid|med_tiden:29|",
+"ref": "30",
+"dephead": "29",
+"deprel": "PA"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "31",
+"dephead": "30",
+"deprel": "ET"
+},
+{
+"word": "tillh\u00f6ra",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|tillh\u00f6ra|",
+"ref": "32",
+"dephead": "31",
+"deprel": "IF"
+},
+{
+"word": "samma",
+"pos": "DT",
+"msd": "DT.UTR+NEU.SIN+PLU.IND",
+"lemma": "|samma|",
+"ref": "33",
+"dephead": "34",
+"deprel": "DT"
+},
+{
+"word": "klass",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|klass|",
+"ref": "34",
+"dephead": "32",
+"deprel": "OO"
+},
+{
+"word": "som",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|",
+"ref": "35",
+"dephead": "34",
+"deprel": "ET"
+},
+{
+"word": "Anita",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Anita|",
+"ref": "36",
+"dephead": "35",
+"deprel": "UA"
+},
+{
+"word": "Eklund-Lykull",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"ref": "37",
+"dephead": "36",
+"deprel": "HD"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "38",
+"dephead": "27",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 221676,
+"start": 20,
+"end": 27
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/musik/artikel_25530.svd",
+"text_date": "2001-01-05 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "F\u00f6rvisso",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|f\u00f6rvisso|",
+"ref": "01",
+"dephead": "02",
+"deprel": "TA"
+},
+{
+"word": "f\u00e5r",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|f\u00e5|",
+"ref": "02",
+"dephead": "07",
+"deprel": "MS"
+},
+{
+"word": "musiken",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|musik|",
+"ref": "03",
+"dephead": "02",
+"deprel": "SS"
+},
+{
+"word": "ett",
+"pos": "DT",
+"msd": "DT.NEU.SIN.IND",
+"lemma": "|en|",
+"ref": "04",
+"dephead": "06",
+"deprel": "DT"
+},
+{
+"word": "nytt",
+"pos": "JJ",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"lemma": "|ny|",
+"ref": "05",
+"dephead": "06",
+"deprel": "AT"
+},
+{
+"word": "ljus",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.NOM",
+"lemma": "|ljus|",
+"ref": "06",
+"dephead": "02",
+"deprel": "OO"
+},
+{
+"word": "och",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|och|",
+"ref": "07",
+"dephead": "15",
+"deprel": "MS"
+},
+{
+"word": "l\u00e5ter",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|l\u00e5ta|",
+"ref": "08",
+"dephead": "07",
+"deprel": "+F"
+},
+{
+"word": "mer",
+"pos": "AB",
+"msd": "AB.KOM",
+"lemma": "|mycket|mer|",
+"ref": "09",
+"dephead": "10",
+"deprel": "AA"
+},
+{
+"word": "originell",
+"pos": "JJ",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"lemma": "|originell|",
+"ref": "10",
+"dephead": "08",
+"deprel": "SP"
+},
+{
+"word": "p\u00e5",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|p\u00e5|",
+"ref": "11",
+"dephead": "08",
+"deprel": "OA"
+},
+{
+"word": "detta",
+"pos": "DT",
+"msd": "DT.NEU.SIN.DEF",
+"lemma": "|denna|",
+"ref": "12",
+"dephead": "13",
+"deprel": "DT"
+},
+{
+"word": "s\u00e4tt",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.NOM",
+"lemma": "|s\u00e4tt|",
+"ref": "13",
+"dephead": "11",
+"deprel": "PA"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "14",
+"dephead": "15",
+"deprel": "IK"
+},
+{
+"word": "men",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|men|",
+"ref": "15",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "16",
+"dephead": "17",
+"deprel": "SS"
+},
+{
+"word": "h\u00e4nder",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|h\u00e4nda|",
+"ref": "17",
+"dephead": "15",
+"deprel": "MS"
+},
+{
+"word": "ocks\u00e5",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|ocks\u00e5|",
+"ref": "18",
+"dephead": "17",
+"deprel": "+A"
+},
+{
+"word": "att",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|att|",
+"ref": "19",
+"dephead": "17",
+"deprel": "OO"
+},
+{
+"word": "man",
+"pos": "PN",
+"msd": "PN.UTR.SIN.IND.SUB",
+"lemma": "|man|",
+"ref": "20",
+"dephead": "21",
+"deprel": "SS"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|komma_sig|",
+"ref": "21",
+"dephead": "19",
+"deprel": "UA"
+},
+{
+"word": "p\u00e5",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|p\u00e5|",
+"ref": "22",
+"dephead": "21",
+"deprel": "OA"
+},
+{
+"word": "sig",
+"pos": "PN",
+"msd": "PN.UTR+NEU.SIN+PLU.DEF.OBJ",
+"lemma": "|sig|komma_sig:21|",
+"ref": "23",
+"dephead": "22",
+"deprel": "PA"
+},
+{
+"word": "sj\u00e4lv",
+"pos": "JJ",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"lemma": "|sj\u00e4lv|",
+"ref": "24",
+"dephead": "23",
+"deprel": "PT"
+},
+{
+"word": "med",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|med|",
+"ref": "25",
+"dephead": "21",
+"deprel": "AA"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "26",
+"dephead": "27",
+"deprel": "SS"
+},
+{
+"word": "f\u00f6rs\u00f6ka",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|f\u00f6rs\u00f6ka|",
+"ref": "27",
+"dephead": "25",
+"deprel": "PA"
+},
+{
+"word": "dra",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|dra|dra_sig|dra_sig_till_minnes|dra_in|",
+"ref": "28",
+"dephead": "21",
+"deprel": "VG"
+},
+{
+"word": "sig",
+"pos": "PN",
+"msd": "PN.UTR+NEU.SIN+PLU.DEF.OBJ",
+"lemma": "|sig|dra_sig:28|dra_sig_till_minnes:28|",
+"ref": "29",
+"dephead": "28",
+"deprel": "OO"
+},
+{
+"word": "till",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|till|dra_sig_till_minnes:28|",
+"ref": "30",
+"dephead": "28",
+"deprel": "PL"
+},
+{
+"word": "minnes",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.GEN",
+"lemma": "|minne|dra_sig_till_minnes:28|",
+"ref": "31",
+"dephead": "30",
+"deprel": "HD"
+},
+{
+"word": "hur",
+"pos": "HA",
+"msd": "HA",
+"lemma": "|hur|",
+"ref": "32",
+"dephead": "38",
+"deprel": "AA"
+},
+{
+"word": "t",
+"pos": "UO",
+"msd": "UO",
+"lemma": "|t_ex|",
+"ref": "33",
+"dephead": "38",
+"deprel": "AA"
+},
+{
+"word": "ex",
+"pos": "UO",
+"msd": "UO",
+"lemma": "|t_ex:33|",
+"ref": "34",
+"dephead": "33",
+"deprel": "HD"
+},
+{
+"word": "In",
+"pos": "UO",
+"msd": "UO",
+"lemma": "|dra_in:28|",
+"ref": "35",
+"dephead": "33",
+"deprel": "HD"
+},
+{
+"word": "dulci",
+"pos": "UO",
+"msd": "UO",
+"lemma": "|",
+"ref": "36",
+"dephead": "33",
+"deprel": "HD"
+},
+{
+"word": "jubilo",
+"pos": "UO",
+"msd": "UO",
+"lemma": "|",
+"ref": "37",
+"dephead": "33",
+"deprel": "HD"
+},
+{
+"word": "skulle",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|skola|",
+"ref": "38",
+"dephead": "28",
+"deprel": "OO"
+},
+{
+"word": "ha",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|ha|",
+"ref": "39",
+"dephead": "38",
+"deprel": "VG"
+},
+{
+"word": "klingat",
+"pos": "VB",
+"msd": "VB.SUP.AKT",
+"lemma": "|klinga|",
+"ref": "40",
+"dephead": "39",
+"deprel": "VG"
+},
+{
+"word": "via",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|via|",
+"ref": "41",
+"dephead": "40",
+"deprel": "AA"
+},
+{
+"word": "orgelns",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.GEN",
+"lemma": "|orgel|",
+"ref": "42",
+"dephead": "43",
+"deprel": "DT"
+},
+{
+"word": "pipor",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|pipa|",
+"ref": "43",
+"dephead": "41",
+"deprel": "PA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "44",
+"dephead": "15",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 296920,
+"start": 26,
+"end": 32
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/litteratur/artikel_25554.svd",
+"text_date": "2001-01-15 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "N\u00e4r",
+"pos": "HA",
+"msd": "HA",
+"lemma": "|n\u00e4r|",
+"ref": "01",
+"dephead": "11",
+"deprel": "TA"
+},
+{
+"word": "Ylva",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Ylva|",
+"ref": "02",
+"dephead": "11",
+"deprel": "SS"
+},
+{
+"word": "Karlsson",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Karlsson|",
+"ref": "03",
+"dephead": "02",
+"deprel": "HD"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "04",
+"dephead": "02",
+"deprel": "IK"
+},
+{
+"word": "som",
+"pos": "HP",
+"msd": "HP.-.-.-",
+"lemma": "|",
+"ref": "05",
+"dephead": "06",
+"deprel": "SS"
+},
+{
+"word": "debuterade",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|debutera|",
+"ref": "06",
+"dephead": "02",
+"deprel": "ET"
+},
+{
+"word": "1998",
+"pos": "RG",
+"msd": "RG.NOM",
+"lemma": "|",
+"ref": "07",
+"dephead": "06",
+"deprel": "OO"
+},
+{
+"word": "med",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|med|",
+"ref": "08",
+"dephead": "07",
+"deprel": "ET"
+},
+{
+"word": "Tova",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Tova|",
+"ref": "09",
+"dephead": "08",
+"deprel": "PA"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "10",
+"dephead": "02",
+"deprel": "IK"
+},
+{
+"word": "best\u00e4mmer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|best\u00e4mma|best\u00e4mma_sig|",
+"ref": "11",
+"dephead": "27",
+"deprel": "TA"
+},
+{
+"word": "sig",
+"pos": "PN",
+"msd": "PN.UTR+NEU.SIN+PLU.DEF.OBJ",
+"lemma": "|sig|best\u00e4mma_sig:11|",
+"ref": "12",
+"dephead": "11",
+"deprel": "OO"
+},
+{
+"word": "f\u00f6r",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|f\u00f6r|",
+"ref": "13",
+"dephead": "11",
+"deprel": "AA"
+},
+{
+"word": "att",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|att|",
+"ref": "14",
+"dephead": "13",
+"deprel": "HD"
+},
+{
+"word": "hon",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|hon|",
+"ref": "15",
+"dephead": "16",
+"deprel": "SS"
+},
+{
+"word": "har",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|ha|",
+"ref": "16",
+"dephead": "13",
+"deprel": "UA"
+},
+{
+"word": "en",
+"pos": "DT",
+"msd": "DT.UTR.SIN.IND",
+"lemma": "|en|",
+"ref": "17",
+"dephead": "18",
+"deprel": "DT"
+},
+{
+"word": "historia",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|historia|",
+"ref": "18",
+"dephead": "16",
+"deprel": "OO"
+},
+{
+"word": "bortom",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|bortom|",
+"ref": "19",
+"dephead": "16",
+"deprel": "RA"
+},
+{
+"word": "det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "20",
+"dephead": "19",
+"deprel": "PA"
+},
+{
+"word": "detaljredovisade",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|detaljredovisa|",
+"ref": "21",
+"dephead": "16",
+"deprel": "VG"
+},
+{
+"word": "uppenbart",
+"pos": "JJ",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"lemma": "|uppenbar|",
+"ref": "22",
+"dephead": "23",
+"deprel": "AT"
+},
+{
+"word": "sj\u00e4lvrelaterade",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.NOM",
+"lemma": "|",
+"ref": "23",
+"dephead": "21",
+"deprel": "XX"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "24",
+"dephead": "25",
+"deprel": "SS"
+},
+{
+"word": "ber\u00e4tta",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|ber\u00e4tta|",
+"ref": "25",
+"dephead": "23",
+"deprel": "EF"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "26",
+"dephead": "11",
+"deprel": "IK"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "27",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "hon",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|hon|",
+"ref": "28",
+"dephead": "27",
+"deprel": "SS"
+},
+{
+"word": "med",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|med|med_tiden|",
+"ref": "29",
+"dephead": "27",
+"deprel": "AA"
+},
+{
+"word": "tiden",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|tid|med_tiden:29|",
+"ref": "30",
+"dephead": "29",
+"deprel": "PA"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "31",
+"dephead": "30",
+"deprel": "ET"
+},
+{
+"word": "tillh\u00f6ra",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|tillh\u00f6ra|",
+"ref": "32",
+"dephead": "31",
+"deprel": "IF"
+},
+{
+"word": "samma",
+"pos": "DT",
+"msd": "DT.UTR+NEU.SIN+PLU.IND",
+"lemma": "|samma|",
+"ref": "33",
+"dephead": "34",
+"deprel": "DT"
+},
+{
+"word": "klass",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|klass|",
+"ref": "34",
+"dephead": "32",
+"deprel": "OO"
+},
+{
+"word": "som",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|",
+"ref": "35",
+"dephead": "34",
+"deprel": "ET"
+},
+{
+"word": "Anita",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Anita|",
+"ref": "36",
+"dephead": "35",
+"deprel": "UA"
+},
+{
+"word": "Eklund-Lykull",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"ref": "37",
+"dephead": "36",
+"deprel": "HD"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "38",
+"dephead": "27",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 349627,
+"start": 1,
+"end": 8
+},
+"structs": {
+"text_url": "http://www.dn.se/Pages/Article.aspx?id=856725&epslanguage=sv",
+"text_date": "2001-01-20 14:00:00",
+"text_newspaper": "Dagens Nyheter"
+},
+"tokens": [
+{
+"word": "Jugoslavien",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Jugoslavien|",
+"ref": "01",
+"dephead": "02",
+"deprel": "SS"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "02",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "inte",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|inte|",
+"ref": "03",
+"dephead": "02",
+"deprel": "NA"
+},
+{
+"word": "p\u00e5",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|p\u00e5|",
+"ref": "04",
+"dephead": "02",
+"deprel": "PL"
+},
+{
+"word": "m\u00e5nga",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"lemma": "|",
+"ref": "05",
+"dephead": "06",
+"deprel": "DT"
+},
+{
+"word": "\u00e5r",
+"pos": "NN",
+"msd": "NN.NEU.PLU.IND.NOM",
+"lemma": "|\u00e5r|",
+"ref": "06",
+"dephead": "04",
+"deprel": "PA"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "07",
+"dephead": "08",
+"deprel": "SS"
+},
+{
+"word": "kunna",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|kunna|",
+"ref": "08",
+"dephead": "02",
+"deprel": "ES"
+},
+{
+"word": "h\u00e5lla",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|h\u00e5lla|",
+"ref": "09",
+"dephead": "08",
+"deprel": "VG"
+},
+{
+"word": "en",
+"pos": "DT",
+"msd": "DT.UTR.SIN.IND",
+"lemma": "|en|",
+"ref": "10",
+"dephead": "12",
+"deprel": "DT"
+},
+{
+"word": "r\u00e4ttvis",
+"pos": "JJ",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"lemma": "|r\u00e4ttvis|",
+"ref": "11",
+"dephead": "12",
+"deprel": "AT"
+},
+{
+"word": "r\u00e4tteg\u00e5ng",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|r\u00e4tteg\u00e5ng|",
+"ref": "12",
+"dephead": "09",
+"deprel": "OO"
+},
+{
+"word": "mot",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|mot|",
+"ref": "13",
+"dephead": "12",
+"deprel": "ET"
+},
+{
+"word": "Slobodan",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Slobodan|",
+"ref": "14",
+"dephead": "13",
+"deprel": "PA"
+},
+{
+"word": "Milosevic",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Milosevic|",
+"ref": "15",
+"dephead": "14",
+"deprel": "HD"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "16",
+"dephead": "02",
+"deprel": "IK"
+},
+{
+"word": "s\u00e4ger",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|s\u00e4ga|",
+"ref": "17",
+"dephead": "02",
+"deprel": "MS"
+},
+{
+"word": "hon",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|hon|",
+"ref": "18",
+"dephead": "17",
+"deprel": "OO"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "19",
+"dephead": "17",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 394494,
+"start": 27,
+"end": 30
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/litteratur/artikel_25573.svd",
+"text_date": "2001-01-24 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "Det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "01",
+"dephead": "02",
+"deprel": "SS"
+},
+{
+"word": "blir",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|bli|",
+"ref": "02",
+"dephead": "16",
+"deprel": "MS"
+},
+{
+"word": "en",
+"pos": "DT",
+"msd": "DT.UTR.SIN.IND",
+"lemma": "|en|",
+"ref": "03",
+"dephead": "05",
+"deprel": "DT"
+},
+{
+"word": "vacker",
+"pos": "JJ",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"lemma": "|vacker|",
+"ref": "04",
+"dephead": "05",
+"deprel": "AT"
+},
+{
+"word": "scen",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|scen|",
+"ref": "05",
+"dephead": "02",
+"deprel": "SP"
+},
+{
+"word": "vid",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|vid|",
+"ref": "06",
+"dephead": "05",
+"deprel": "ET"
+},
+{
+"word": "Dumbledores",
+"pos": "PM",
+"msd": "PM.GEN",
+"lemma": "|",
+"ref": "07",
+"dephead": "13",
+"deprel": "CJ"
+},
+{
+"word": "d\u00f6dsb\u00e4dd",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|d\u00f6dsb\u00e4dd|",
+"ref": "08",
+"dephead": "07",
+"deprel": "HD"
+},
+{
+"word": "med",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|med|",
+"ref": "09",
+"dephead": "07",
+"deprel": "HD"
+},
+{
+"word": "Harry",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Harry|",
+"ref": "10",
+"dephead": "07",
+"deprel": "HD"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "11",
+"dephead": "13",
+"deprel": "IK"
+},
+{
+"word": "Ron",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"ref": "12",
+"dephead": "13",
+"deprel": "CJ"
+},
+{
+"word": "och",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|och|",
+"ref": "13",
+"dephead": "06",
+"deprel": "PA"
+},
+{
+"word": "Hermione",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"ref": "14",
+"dephead": "13",
+"deprel": "CJ"
+},
+{
+"word": "-",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "15",
+"dephead": "02",
+"deprel": "IT"
+},
+{
+"word": "men",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|men|",
+"ref": "16",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "f\u00f6rst",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|f\u00f6rst|",
+"ref": "17",
+"dephead": "18",
+"deprel": "TA"
+},
+{
+"word": "m\u00e5ste",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|m\u00e5ste|",
+"ref": "18",
+"dephead": "16",
+"deprel": "MS"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"ref": "19",
+"dephead": "18",
+"deprel": "SS"
+},
+{
+"word": "v\u00e4l",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|v\u00e4l|",
+"ref": "20",
+"dephead": "18",
+"deprel": "AA"
+},
+{
+"word": "leva",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|leva|",
+"ref": "21",
+"dephead": "18",
+"deprel": "VG"
+},
+{
+"word": "sitt",
+"pos": "PS",
+"msd": "PS.NEU.SIN.DEF",
+"lemma": "|sig|",
+"ref": "22",
+"dephead": "23",
+"deprel": "DT"
+},
+{
+"word": "vuxenliv",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.NOM",
+"lemma": "|vuxenliv|",
+"ref": "23",
+"dephead": "28",
+"deprel": "SS"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "24",
+"dephead": "23",
+"deprel": "IK"
+},
+{
+"word": "som",
+"pos": "HP",
+"msd": "HP.-.-.-",
+"lemma": "|",
+"ref": "25",
+"dephead": "26",
+"deprel": "SS"
+},
+{
+"word": "Rowlings",
+"pos": "VB",
+"msd": "VB.PRS.SFO",
+"lemma": "|",
+"ref": "26",
+"dephead": "28",
+"deprel": "OO"
+},
+{
+"word": "bara",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|bara|",
+"ref": "27",
+"dephead": "26",
+"deprel": "CA"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "28",
+"dephead": "21",
+"deprel": "OO"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "29",
+"dephead": "26",
+"deprel": "OA"
+},
+{
+"word": "antyda",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|antyda|",
+"ref": "30",
+"dephead": "29",
+"deprel": "IF"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "31",
+"dephead": "16",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 400671,
+"start": 7,
+"end": 11
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/scen/artikel_25591.svd",
+"text_date": "2001-01-27 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "V\u00e4gen",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|v\u00e4g|",
+"ref": "01",
+"dephead": "03",
+"deprel": "SS"
+},
+{
+"word": "in",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|in|",
+"ref": "02",
+"dephead": "03",
+"deprel": "NA"
+},
+{
+"word": "\u00e4r",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|vara|",
+"ref": "03",
+"dephead": "06",
+"deprel": "MS"
+},
+{
+"word": "\u00f6ppnad",
+"pos": "PC",
+"msd": "PC.PRF.UTR.SIN.IND.NOM",
+"lemma": "|\u00f6ppna|",
+"ref": "04",
+"dephead": "03",
+"deprel": "SP"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "05",
+"dephead": "03",
+"deprel": "IK"
+},
+{
+"word": "f\u00f6r",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|f\u00f6r|",
+"ref": "06",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "visst",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|visst|viss|",
+"ref": "07",
+"dephead": "08",
+"deprel": "MA"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "08",
+"dephead": "06",
+"deprel": "MS"
+},
+{
+"word": "Rent",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|ren|",
+"ref": "09",
+"dephead": "08",
+"deprel": "CJ"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "10",
+"dephead": "08",
+"deprel": "VG"
+},
+{
+"word": "locka",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|locka|",
+"ref": "11",
+"dephead": "10",
+"deprel": "IF"
+},
+{
+"word": "publik",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|publik|",
+"ref": "12",
+"dephead": "11",
+"deprel": "OO"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "13",
+"dephead": "06",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 476604,
+"start": 9,
+"end": 13
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/litteratur/artikel_25552.svd",
+"text_date": "2001-01-15 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "Men",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|men|",
+"ref": "01",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "vad",
+"pos": "HP",
+"msd": "HP.NEU.SIN.IND",
+"lemma": "|vad|",
+"ref": "02",
+"dephead": "03",
+"deprel": "SS"
+},
+{
+"word": "bryr",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|bry|bry_sig|",
+"ref": "03",
+"dephead": "01",
+"deprel": "MS"
+},
+{
+"word": "sig",
+"pos": "PN",
+"msd": "PN.UTR+NEU.SIN+PLU.DEF.OBJ",
+"lemma": "|sig|bry_sig:03|",
+"ref": "04",
+"dephead": "03",
+"deprel": "IO"
+},
+{
+"word": "nyb\u00f6rjarl\u00e4sare",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|nyb\u00f6rjarl\u00e4sare|",
+"ref": "05",
+"dephead": "03",
+"deprel": "OO"
+},
+{
+"word": "om",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|om|",
+"ref": "06",
+"dephead": "05",
+"deprel": "ET"
+},
+{
+"word": "det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "07",
+"dephead": "06",
+"deprel": "PA"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "08",
+"dephead": "03",
+"deprel": "IK"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"ref": "09",
+"dephead": "10",
+"deprel": "SS"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "10",
+"dephead": "03",
+"deprel": "AN"
+},
+{
+"word": "bara",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|bara|",
+"ref": "11",
+"dephead": "10",
+"deprel": "CA"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "12",
+"dephead": "10",
+"deprel": "VG"
+},
+{
+"word": "ha",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|ha|",
+"ref": "13",
+"dephead": "12",
+"deprel": "IF"
+},
+{
+"word": "skojigt",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|skojig|",
+"ref": "14",
+"dephead": "13",
+"deprel": "AA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "15",
+"dephead": "03",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 488957,
+"start": 1,
+"end": 4
+},
+"structs": {
+"text_url": "http://www.dn.se/Pages/Article.aspx?id=856725&epslanguage=sv",
+"text_date": "2001-01-20 14:00:00",
+"text_newspaper": "Dagens Nyheter"
+},
+"tokens": [
+{
+"word": "Det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "01",
+"dephead": "02",
+"deprel": "FS"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "02",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "03",
+"dephead": "02",
+"deprel": "VG"
+},
+{
+"word": "dr\u00f6ja",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|dr\u00f6ja|",
+"ref": "04",
+"dephead": "03",
+"deprel": "IF"
+},
+{
+"word": "l\u00e4nge",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|l\u00e4nge|",
+"ref": "05",
+"dephead": "04",
+"deprel": "TA"
+},
+{
+"word": "innan",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|innan|",
+"ref": "06",
+"dephead": "02",
+"deprel": "TA"
+},
+{
+"word": "Plavsic",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"ref": "07",
+"dephead": "08",
+"deprel": "SS"
+},
+{
+"word": "sitter",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|sitta|",
+"ref": "08",
+"dephead": "06",
+"deprel": "UA"
+},
+{
+"word": "h\u00e4r",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|h\u00e4r|",
+"ref": "09",
+"dephead": "08",
+"deprel": "RA"
+},
+{
+"word": "igen",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|igen|",
+"ref": "10",
+"dephead": "09",
+"deprel": "HD"
+},
+{
+"word": ";",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "11",
+"dephead": "08",
+"deprel": "IS"
+},
+{
+"word": "ibland",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|ibland|",
+"ref": "12",
+"dephead": "13",
+"deprel": "TA"
+},
+{
+"word": "g\u00e5r",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|g\u00e5|",
+"ref": "13",
+"dephead": "08",
+"deprel": "TA"
+},
+{
+"word": "det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "14",
+"dephead": "13",
+"deprel": "FS"
+},
+{
+"word": "femton",
+"pos": "RG",
+"msd": "RG.NOM",
+"lemma": "|femton|",
+"ref": "15",
+"dephead": "16",
+"deprel": "DT"
+},
+{
+"word": "m\u00e5nader",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|m\u00e5nad|",
+"ref": "16",
+"dephead": "13",
+"deprel": "ES"
+},
+{
+"word": "mellan",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|mellan|",
+"ref": "17",
+"dephead": "13",
+"deprel": "RA"
+},
+{
+"word": "gripande",
+"pos": "PC",
+"msd": "PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"lemma": "|gripande|gripa|",
+"ref": "18",
+"dephead": "19",
+"deprel": "CJ"
+},
+{
+"word": "och",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|och|",
+"ref": "19",
+"dephead": "17",
+"deprel": "PA"
+},
+{
+"word": "r\u00e4tteg\u00e5ng",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|r\u00e4tteg\u00e5ng|",
+"ref": "20",
+"dephead": "19",
+"deprel": "CJ"
+},
+{
+"word": "i",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|i|",
+"ref": "21",
+"dephead": "13",
+"deprel": "RA"
+},
+{
+"word": "den",
+"pos": "DT",
+"msd": "DT.UTR.SIN.DEF",
+"lemma": "|en|den|",
+"ref": "22",
+"dephead": "24",
+"deprel": "DT"
+},
+{
+"word": "arbetstyngda",
+"pos": "PC",
+"msd": "PC.PRF.UTR+NEU.SIN.DEF.NOM",
+"lemma": "|",
+"ref": "23",
+"dephead": "24",
+"deprel": "AT"
+},
+{
+"word": "tribunalen",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|tribunal|",
+"ref": "24",
+"dephead": "21",
+"deprel": "PA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "25",
+"dephead": "02",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 578366,
+"start": 5,
+"end": 8
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/musik/artikel_25540.svd",
+"text_date": "2001-01-12 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "Jag",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|jag|",
+"ref": "01",
+"dephead": "02",
+"deprel": "SS"
+},
+{
+"word": "tror",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|tro|",
+"ref": "02",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "en",
+"pos": "DT",
+"msd": "DT.UTR.SIN.IND",
+"lemma": "|en|en_del|",
+"ref": "03",
+"dephead": "04",
+"deprel": "DT"
+},
+{
+"word": "del",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|del|en_del:03|",
+"ref": "04",
+"dephead": "05",
+"deprel": "DT"
+},
+{
+"word": "lyssnare",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|lyssnare|",
+"ref": "05",
+"dephead": "06",
+"deprel": "SS"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "06",
+"dephead": "02",
+"deprel": "OO"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "07",
+"dephead": "06",
+"deprel": "VG"
+},
+{
+"word": "s\u00e4ga",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|s\u00e4ga|",
+"ref": "08",
+"dephead": "07",
+"deprel": "IF"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"ref": "09",
+"dephead": "08",
+"deprel": "IK"
+},
+{
+"word": "att",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|att|",
+"ref": "10",
+"dephead": "06",
+"deprel": "KA"
+},
+{
+"word": "\u201d",
+"pos": "PAD",
+"msd": "PAD",
+"lemma": "|",
+"ref": "11",
+"dephead": "13",
+"deprel": "IR"
+},
+{
+"word": "inte",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|inte|",
+"ref": "12",
+"dephead": "13",
+"deprel": "NA"
+},
+{
+"word": "var",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|vara|",
+"ref": "13",
+"dephead": "20",
+"deprel": "MS"
+},
+{
+"word": "det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "14",
+"dephead": "13",
+"deprel": "SS"
+},
+{
+"word": "mycket",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|mycket|",
+"ref": "15",
+"dephead": "20",
+"deprel": "IK"
+},
+{
+"word": "Armstrong",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Armstrong|",
+"ref": "16",
+"dephead": "20",
+"deprel": "MS"
+},
+{
+"word": "h\u00e4r",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|h\u00e4r|",
+"ref": "17",
+"dephead": "16",
+"deprel": "HD"
+},
+{
+"word": "inte",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|inte|",
+"ref": "18",
+"dephead": "16",
+"deprel": "NA"
+},
+{
+"word": "\u201d",
+"pos": "PAD",
+"msd": "PAD",
+"lemma": "|",
+"ref": "19",
+"dephead": "16",
+"deprel": "IR"
+},
+{
+"word": "och",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|och|",
+"ref": "20",
+"dephead": "10",
+"deprel": "UA"
+},
+{
+"word": "d\u00e5",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|d\u00e5|",
+"ref": "21",
+"dephead": "22",
+"deprel": "TA"
+},
+{
+"word": "har",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|ha|",
+"ref": "22",
+"dephead": "25",
+"deprel": "TA"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"ref": "23",
+"dephead": "22",
+"deprel": "SS"
+},
+{
+"word": "kanske",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|kanske|",
+"ref": "24",
+"dephead": "22",
+"deprel": "MA"
+},
+{
+"word": "v\u00e4ntat",
+"pos": "VB",
+"msd": "VB.SUP.AKT",
+"lemma": "|v\u00e4nta|v\u00e4nta_sig|",
+"ref": "25",
+"dephead": "20",
+"deprel": "+F"
+},
+{
+"word": "sig",
+"pos": "PN",
+"msd": "PN.UTR+NEU.SIN+PLU.DEF.OBJ",
+"lemma": "|sig|v\u00e4nta_sig:25|",
+"ref": "26",
+"dephead": "27",
+"deprel": "DT"
+},
+{
+"word": "armstrongkopior",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|",
+"ref": "27",
+"dephead": "25",
+"deprel": "OO"
+},
+{
+"word": "b\u00e5de",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|b\u00e5de_och|",
+"ref": "28",
+"dephead": "29",
+"deprel": "VA"
+},
+{
+"word": "i",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|i|",
+"ref": "29",
+"dephead": "31",
+"deprel": "DT"
+},
+{
+"word": "spel",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.NOM",
+"lemma": "|spel|",
+"ref": "30",
+"dephead": "31",
+"deprel": "CJ"
+},
+{
+"word": "och",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|och|b\u00e5de_och:28|",
+"ref": "31",
+"dephead": "25",
+"deprel": "OO"
+},
+{
+"word": "arrangemang",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.NOM",
+"lemma": "|arrangemang|",
+"ref": "32",
+"dephead": "31",
+"deprel": "CJ"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "33",
+"dephead": "02",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 588748,
+"start": 7,
+"end": 10
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/litteratur/artikel_25596.svd",
+"text_date": "2001-01-30 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "Men",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|men|",
+"ref": "01",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "Maj",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Maj|",
+"ref": "02",
+"dephead": "04",
+"deprel": "SS"
+},
+{
+"word": "Bylock",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"ref": "03",
+"dephead": "02",
+"deprel": "HD"
+},
+{
+"word": "antyder",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|antyda|",
+"ref": "04",
+"dephead": "01",
+"deprel": "MS"
+},
+{
+"word": "att",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|att|",
+"ref": "05",
+"dephead": "04",
+"deprel": "OO"
+},
+{
+"word": "det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "06",
+"dephead": "08",
+"deprel": "FS"
+},
+{
+"word": "\u00e4nnu",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|\u00e4nnu|",
+"ref": "07",
+"dephead": "08",
+"deprel": "TA"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "08",
+"dephead": "05",
+"deprel": "UA"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "09",
+"dephead": "08",
+"deprel": "VG"
+},
+{
+"word": "dr\u00f6ja",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|dr\u00f6ja|",
+"ref": "10",
+"dephead": "09",
+"deprel": "IF"
+},
+{
+"word": "innan",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|innan|",
+"ref": "11",
+"dephead": "10",
+"deprel": "TA"
+},
+{
+"word": "fr\u00e4mlingarna",
+"pos": "NN",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"lemma": "|fr\u00e4mling|",
+"ref": "12",
+"dephead": "13",
+"deprel": "SS"
+},
+{
+"word": "integreras",
+"pos": "VB",
+"msd": "VB.PRS.SFO",
+"lemma": "|integrera|",
+"ref": "13",
+"dephead": "11",
+"deprel": "UA"
+},
+{
+"word": "i",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|i|",
+"ref": "14",
+"dephead": "13",
+"deprel": "RA"
+},
+{
+"word": "det",
+"pos": "DT",
+"msd": "DT.NEU.SIN.DEF",
+"lemma": "|en|den|",
+"ref": "15",
+"dephead": "17",
+"deprel": "DT"
+},
+{
+"word": "svenska",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"lemma": "|svensk|",
+"ref": "16",
+"dephead": "17",
+"deprel": "AT"
+},
+{
+"word": "samh\u00e4llet",
+"pos": "NN",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"lemma": "|samh\u00e4lle|",
+"ref": "17",
+"dephead": "14",
+"deprel": "PA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "18",
+"dephead": "04",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 599081,
+"start": 1,
+"end": 4
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/litteratur/artikel_25597.svd",
+"text_date": "2001-01-30 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "Jag",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|jag|",
+"ref": "01",
+"dephead": "02",
+"deprel": "SS"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "02",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "03",
+"dephead": "02",
+"deprel": "VG"
+},
+{
+"word": "t\u00e4nka",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|t\u00e4nka|",
+"ref": "04",
+"dephead": "02",
+"deprel": "+F"
+},
+{
+"word": "p\u00e5",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|p\u00e5|",
+"ref": "05",
+"dephead": "04",
+"deprel": "OA"
+},
+{
+"word": "b\u00f6ckerna",
+"pos": "NN",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"lemma": "|bok|",
+"ref": "06",
+"dephead": "03",
+"deprel": "SS"
+},
+{
+"word": "om",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|om|",
+"ref": "07",
+"dephead": "06",
+"deprel": "ET"
+},
+{
+"word": "Barbapapa",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"ref": "08",
+"dephead": "07",
+"deprel": "PA"
+},
+{
+"word": "d\u00e4r",
+"pos": "HA",
+"msd": "HA",
+"lemma": "|d\u00e4r|",
+"ref": "09",
+"dephead": "15",
+"deprel": "RA"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"ref": "10",
+"dephead": "13",
+"deprel": "DT"
+},
+{
+"word": "organiskt",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|organisk|",
+"ref": "11",
+"dephead": "12",
+"deprel": "AA"
+},
+{
+"word": "v\u00e4xande",
+"pos": "PC",
+"msd": "PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"lemma": "|v\u00e4xa|",
+"ref": "12",
+"dephead": "13",
+"deprel": "AT"
+},
+{
+"word": "husen",
+"pos": "NN",
+"msd": "NN.NEU.PLU.DEF.NOM",
+"lemma": "|hus|",
+"ref": "13",
+"dephead": "15",
+"deprel": "SS"
+},
+{
+"word": "s\u00e4kert",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|s\u00e4ker|",
+"ref": "14",
+"dephead": "15",
+"deprel": "MA"
+},
+{
+"word": "var",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|vara|",
+"ref": "15",
+"dephead": "06",
+"deprel": "ET"
+},
+{
+"word": "den",
+"pos": "DT",
+"msd": "DT.UTR.SIN.DEF",
+"lemma": "|en|den|",
+"ref": "16",
+"dephead": "18",
+"deprel": "DT"
+},
+{
+"word": "fr\u00e4msta",
+"pos": "JJ",
+"msd": "JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM",
+"lemma": "|fr\u00e4mst|",
+"ref": "17",
+"dephead": "18",
+"deprel": "DT"
+},
+{
+"word": "anledningen",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|anledning|",
+"ref": "18",
+"dephead": "15",
+"deprel": "SP"
+},
+{
+"word": "till",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|till|",
+"ref": "19",
+"dephead": "15",
+"deprel": "OA"
+},
+{
+"word": "deras",
+"pos": "PS",
+"msd": "PS.UTR+NEU.SIN+PLU.DEF",
+"lemma": "|de|",
+"ref": "20",
+"dephead": "21",
+"deprel": "DT"
+},
+{
+"word": "popularitet",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|popularitet|",
+"ref": "21",
+"dephead": "19",
+"deprel": "PA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "22",
+"dephead": "02",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "WEBBNYHETER2001",
+"match": {
+"position": 605350,
+"start": 3,
+"end": 7
+},
+"structs": {
+"text_url": "http://www.svd.se/kultur/scen/artikel_25591.svd",
+"text_date": "2001-01-27 00:00:00",
+"text_newspaper": "Svenska Dagbladet"
+},
+"tokens": [
+{
+"word": "N\u00e5gra",
+"pos": "DT",
+"msd": "DT.UTR+NEU.PLU.IND",
+"lemma": "|n\u00e5gon|",
+"ref": "01",
+"dephead": "03",
+"deprel": "DT"
+},
+{
+"word": "riktigt",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|riktig|",
+"ref": "02",
+"dephead": "03",
+"deprel": "AA"
+},
+{
+"word": "h\u00e4ngivna",
+"pos": "PC",
+"msd": "PC.PRF.UTR+NEU.PLU.IND+DEF.NOM",
+"lemma": "|h\u00e4ngiven|",
+"ref": "03",
+"dephead": "04",
+"deprel": "SS"
+},
+{
+"word": "kommer",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|komma|",
+"ref": "04",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "ocks\u00e5",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|ocks\u00e5|",
+"ref": "05",
+"dephead": "04",
+"deprel": "+A"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"ref": "06",
+"dephead": "04",
+"deprel": "VG"
+},
+{
+"word": "se",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|se|",
+"ref": "07",
+"dephead": "06",
+"deprel": "IF"
+},
+{
+"word": "den",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"ref": "08",
+"dephead": "10",
+"deprel": "DT"
+},
+{
+"word": "flera",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.PLU.IND.NOM",
+"lemma": "|",
+"ref": "09",
+"dephead": "10",
+"deprel": "AT"
+},
+{
+"word": "g\u00e5nger",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|g\u00e5ng|",
+"ref": "10",
+"dephead": "07",
+"deprel": "TA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"ref": "11",
+"dephead": "04",
+"deprel": "IP"
+}
+]
+}
+],
+"hits": 13,
+"corpus_hits": {
+"WEBBNYHETER2001": 13
+},
+"corpus_order": [
+"WEBBNYHETER2001"
+],
+"query_data": "eJwFwTsKgDAMANAr5dOmjW5CwclBBHFM0ub-R_C9vqSS2WpRpWkxEMaJiY5qBT3AdNYkx9UkNdhmZniB3oHFgfZ3HMf1neMZNwHghvwDyHMWsA==\n",
+"time": 0.845942497253418
+}

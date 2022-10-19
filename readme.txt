@@ -1,0 +1,6 @@
+This folder contains the scripts which are necessary to reproduce data extraction and annotation.
+
+In order to run the scripts you would need to install Ruby and the 'json' gem. The scripts were tested using Ruby version 2.6.3p62 on Windows 10. 
+Known compatilibity issues: if you use version 3.x, you may have to replace the deprecated URI.escape method.
+
+Contact: aleksandrs.berdicevskis@gu.se

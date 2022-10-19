@@ -1,0 +1,3826 @@
+{
+"kwic": [
+{
+"corpus": "DA",
+"match": {
+"position": 39857,
+"start": 6,
+"end": 9
+},
+"structs": {
+"text_date": "2008-12-11 21:30:08",
+"text_id": "coverage-krugman-har-natt-fram-till-alliansen",
+"text_author": "Nisha Besara"
+},
+"tokens": [
+{
+"word": "Och",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "t\u00e4nk",
+"deprel": "MS",
+"dephead": "1",
+"ref": "2",
+"lemma": "|t\u00e4nka|",
+"msd": "VB.IMP.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "2",
+"ref": "3",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "7",
+"ref": "4",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "4",
+"ref": "5",
+"lemma": "|i|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "skolb\u00f6ckerna",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|skolbok|",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "3",
+"ref": "7",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "7",
+"ref": "8",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "st\u00e5",
+"deprel": "IF",
+"dephead": "8",
+"ref": "9",
+"lemma": "|st\u00e5|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "9",
+"ref": "10",
+"lemma": "|om|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "2000-talets",
+"deprel": "DT",
+"dephead": "12",
+"ref": "11",
+"lemma": "|2000-tal|",
+"msd": "NN.NEU.SIN.DEF.GEN",
+"pos": "NN"
+},
+{
+"word": "kris",
+"deprel": "PA",
+"dephead": "10",
+"ref": "12",
+"lemma": "|kris|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "AA",
+"dephead": "9",
+"ref": "13",
+"lemma": "|i|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "samma",
+"deprel": "DT",
+"dephead": "15",
+"ref": "14",
+"lemma": "|samma|",
+"msd": "DT.UTR+NEU.SIN+PLU.IND",
+"pos": "DT"
+},
+{
+"word": "faktaruta",
+"deprel": "PA",
+"dephead": "13",
+"ref": "15",
+"lemma": "|faktaruta|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "16",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 39960,
+"start": 2,
+"end": 9
+},
+"structs": {
+"text_date": "2008-12-03 16:03:08",
+"text_id": "coverage-infor-a-kasseamnesti",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "Enligt",
+"deprel": "MA",
+"dephead": "3",
+"ref": "1",
+"lemma": "|enligt|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "statistisk",
+"deprel": "PA",
+"dephead": "1",
+"ref": "2",
+"lemma": "|statistisk|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "kommer",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "bara",
+"deprel": "CA",
+"dephead": "3",
+"ref": "4",
+"lemma": "|bara|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "var",
+"deprel": "DT",
+"dephead": "7",
+"ref": "5",
+"lemma": "|var|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "fj\u00e4rde",
+"deprel": "HD",
+"dephead": "5",
+"ref": "6",
+"lemma": "|fyra|",
+"msd": "RO.NOM",
+"pos": "RO"
+},
+{
+"word": "arbetsl\u00f6s",
+"deprel": "SS",
+"dephead": "3",
+"ref": "7",
+"lemma": "|arbetsl\u00f6s|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "3",
+"ref": "8",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00e5",
+"deprel": "IF",
+"dephead": "8",
+"ref": "9",
+"lemma": "|f\u00e5|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "ut",
+"deprel": "PL",
+"dephead": "9",
+"ref": "10",
+"lemma": "|ut|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "80",
+"deprel": "DT",
+"dephead": "12",
+"ref": "11",
+"lemma": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "procent",
+"deprel": "OO",
+"dephead": "9",
+"ref": "12",
+"lemma": "|procent|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "12",
+"ref": "13",
+"lemma": "|av|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "l\u00f6nen",
+"deprel": "PA",
+"dephead": "13",
+"ref": "14",
+"lemma": "|l\u00f6n|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "15",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 41333,
+"start": 4,
+"end": 8
+},
+"structs": {
+"text_date": "2008-12-07 23:20:51",
+"text_id": "coverage-alla-ska-med-men-vart",
+"text_author": "Nisha Besara"
+},
+"tokens": [
+{
+"word": "F\u00f6r",
+"deprel": "AA",
+"dephead": "5",
+"ref": "1",
+"lemma": "|f\u00f6r|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "att",
+"deprel": "PA",
+"dephead": "1",
+"ref": "2",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "n\u00e5",
+"deprel": "IF",
+"dephead": "2",
+"ref": "3",
+"lemma": "|n\u00e5|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "dit",
+"deprel": "RA",
+"dephead": "3",
+"ref": "4",
+"lemma": "|dit|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "5",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "5",
+"ref": "6",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "5",
+"ref": "7",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "kr\u00e4vas",
+"deprel": "IF",
+"dephead": "7",
+"ref": "8",
+"lemma": "|kr\u00e4va|kr\u00e4vas|",
+"msd": "VB.INF.SFO",
+"pos": "VB"
+},
+{
+"word": "blod",
+"deprel": "CJ",
+"dephead": "20",
+"ref": "9",
+"lemma": "|blod|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "14",
+"ref": "10",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "svett",
+"deprel": "CJ",
+"dephead": "14",
+"ref": "11",
+"lemma": "|svett|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "14",
+"ref": "12",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "t\u00e5rar",
+"deprel": "CJ",
+"dephead": "14",
+"ref": "13",
+"lemma": "|t\u00e5r|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "++",
+"dephead": "20",
+"ref": "14",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "m\u00e5nga",
+"deprel": "DT",
+"dephead": "16",
+"ref": "15",
+"lemma": "|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "timmars",
+"deprel": "DT",
+"dephead": "17",
+"ref": "16",
+"lemma": "|timme|",
+"msd": "NN.UTR.PLU.IND.GEN",
+"pos": "NN"
+},
+{
+"word": "tragglande",
+"deprel": "CJ",
+"dephead": "14",
+"ref": "17",
+"lemma": "|tragglande|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "20",
+"ref": "18",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "f\u00f6rhandlande",
+"deprel": "CJ",
+"dephead": "20",
+"ref": "19",
+"lemma": "|f\u00f6rhandlande|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "OO",
+"dephead": "8",
+"ref": "20",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "kompromissande",
+"deprel": "CJ",
+"dephead": "20",
+"ref": "21",
+"lemma": "|kompromissande|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "20",
+"ref": "22",
+"lemma": "|i|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "arbetsgrupper",
+"deprel": "PA",
+"dephead": "22",
+"ref": "23",
+"lemma": "|arbetsgrupp|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "5",
+"ref": "24",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 44349,
+"start": 4,
+"end": 7
+},
+"structs": {
+"text_date": "2008-12-03 16:03:08",
+"text_id": "coverage-infor-a-kasseamnesti",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "En",
+"deprel": "DT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|en|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "oml\u00e4ggning",
+"deprel": "SS",
+"dephead": "5",
+"ref": "2",
+"lemma": "|oml\u00e4ggning|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "2",
+"ref": "3",
+"lemma": "|av|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "politiken",
+"deprel": "PA",
+"dephead": "3",
+"ref": "4",
+"lemma": "|politik|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "kommer",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "5",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "5",
+"ref": "6",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00f6rhindra",
+"deprel": "CJ",
+"dephead": "8",
+"ref": "7",
+"lemma": "|f\u00f6rhindra|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "eller",
+"deprel": "IF",
+"dephead": "6",
+"ref": "8",
+"lemma": "|eller|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "lindra",
+"deprel": "CJ",
+"dephead": "8",
+"ref": "9",
+"lemma": "|lindra|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "sociala",
+"deprel": "AT",
+"dephead": "12",
+"ref": "10",
+"lemma": "|social|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "problem",
+"deprel": "CJ",
+"dephead": "12",
+"ref": "11",
+"lemma": "|problem|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "OO",
+"dephead": "8",
+"ref": "12",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "umb\u00e4randen",
+"deprel": "CJ",
+"dephead": "12",
+"ref": "13",
+"lemma": "|umb\u00e4rande|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "f\u00f6r",
+"deprel": "OA",
+"dephead": "8",
+"ref": "14",
+"lemma": "|f\u00f6r|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "m\u00e5nga",
+"deprel": "DT",
+"dephead": "16",
+"ref": "15",
+"lemma": "|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "m\u00e4nniskor",
+"deprel": "PA",
+"dephead": "14",
+"ref": "16",
+"lemma": "|m\u00e4nniska|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "5",
+"ref": "17",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 44396,
+"start": 11,
+"end": 14
+},
+"structs": {
+"text_date": "2008-12-03 16:03:08",
+"text_id": "coverage-infor-a-kasseamnesti",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "Men",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|men|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "dessa",
+"deprel": "DT",
+"dephead": "3",
+"ref": "2",
+"lemma": "|denna|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "f\u00f6rslag",
+"deprel": "SS",
+"dephead": "4",
+"ref": "3",
+"lemma": "|f\u00f6rslag|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "inneb\u00e4r",
+"deprel": "MS",
+"dephead": "1",
+"ref": "4",
+"lemma": "|inneb\u00e4ra|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "6",
+"ref": "5",
+"lemma": "|en|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "omf\u00f6rdelning",
+"deprel": "OO",
+"dephead": "4",
+"ref": "6",
+"lemma": "|omf\u00f6rdelning|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "OA",
+"dephead": "4",
+"ref": "7",
+"lemma": "|till|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "m\u00e4nniskor",
+"deprel": "PA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|m\u00e4nniska|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "10",
+"ref": "9",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "har",
+"deprel": "CJ",
+"dephead": "11",
+"ref": "10",
+"lemma": "|ha|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "eller",
+"deprel": "ET",
+"dephead": "8",
+"ref": "11",
+"lemma": "|eller|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "kommer",
+"deprel": "+F",
+"dephead": "11",
+"ref": "12",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "MS",
+"dephead": "11",
+"ref": "13",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "ha",
+"deprel": "IF",
+"dephead": "13",
+"ref": "14",
+"lemma": "|ha|ha_ont|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "mycket",
+"deprel": "AA",
+"dephead": "16",
+"ref": "15",
+"lemma": "|mycket|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "ont",
+"deprel": "OO",
+"dephead": "14",
+"ref": "16",
+"lemma": "|ond|ha_ont:14|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "14",
+"ref": "17",
+"lemma": "|om|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "pengar",
+"deprel": "PA",
+"dephead": "17",
+"ref": "18",
+"lemma": "|peng|pengar|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "fram\u00f6ver",
+"deprel": "TA",
+"dephead": "14",
+"ref": "19",
+"lemma": "|fram\u00f6ver|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "och",
+"deprel": "ET",
+"dephead": "6",
+"ref": "20",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "23",
+"ref": "21",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "d\u00e4rf\u00f6r",
+"deprel": "AA",
+"dephead": "23",
+"ref": "22",
+"lemma": "|d\u00e4rf\u00f6r|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "CJ",
+"dephead": "20",
+"ref": "23",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "23",
+"ref": "24",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "konsumera",
+"deprel": "IF",
+"dephead": "24",
+"ref": "25",
+"lemma": "|konsumera|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "mer",
+"deprel": "AA",
+"dephead": "28",
+"ref": "26",
+"lemma": "|mer|mycket|",
+"msd": "AB.KOM",
+"pos": "AB"
+},
+{
+"word": "\u00e4n",
+"deprel": "HD",
+"dephead": "26",
+"ref": "27",
+"lemma": "|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "andra",
+"deprel": "DT",
+"dephead": "29",
+"ref": "28",
+"lemma": "|andra|annan|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "grupper",
+"deprel": "OO",
+"dephead": "25",
+"ref": "29",
+"lemma": "|grupp|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "29",
+"ref": "30",
+"lemma": "|i|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "samh\u00e4llet",
+"deprel": "PA",
+"dephead": "30",
+"ref": "31",
+"lemma": "|samh\u00e4lle|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "4",
+"ref": "32",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 44407,
+"start": 22,
+"end": 25
+},
+"structs": {
+"text_date": "2008-12-03 16:03:08",
+"text_id": "coverage-infor-a-kasseamnesti",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "Men",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|men|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "dessa",
+"deprel": "DT",
+"dephead": "3",
+"ref": "2",
+"lemma": "|denna|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "f\u00f6rslag",
+"deprel": "SS",
+"dephead": "4",
+"ref": "3",
+"lemma": "|f\u00f6rslag|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "inneb\u00e4r",
+"deprel": "MS",
+"dephead": "1",
+"ref": "4",
+"lemma": "|inneb\u00e4ra|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "6",
+"ref": "5",
+"lemma": "|en|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "omf\u00f6rdelning",
+"deprel": "OO",
+"dephead": "4",
+"ref": "6",
+"lemma": "|omf\u00f6rdelning|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "OA",
+"dephead": "4",
+"ref": "7",
+"lemma": "|till|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "m\u00e4nniskor",
+"deprel": "PA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|m\u00e4nniska|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "10",
+"ref": "9",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "har",
+"deprel": "CJ",
+"dephead": "11",
+"ref": "10",
+"lemma": "|ha|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "eller",
+"deprel": "ET",
+"dephead": "8",
+"ref": "11",
+"lemma": "|eller|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "kommer",
+"deprel": "+F",
+"dephead": "11",
+"ref": "12",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "MS",
+"dephead": "11",
+"ref": "13",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "ha",
+"deprel": "IF",
+"dephead": "13",
+"ref": "14",
+"lemma": "|ha|ha_ont|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "mycket",
+"deprel": "AA",
+"dephead": "16",
+"ref": "15",
+"lemma": "|mycket|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "ont",
+"deprel": "OO",
+"dephead": "14",
+"ref": "16",
+"lemma": "|ond|ha_ont:14|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "14",
+"ref": "17",
+"lemma": "|om|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "pengar",
+"deprel": "PA",
+"dephead": "17",
+"ref": "18",
+"lemma": "|peng|pengar|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "fram\u00f6ver",
+"deprel": "TA",
+"dephead": "14",
+"ref": "19",
+"lemma": "|fram\u00f6ver|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "och",
+"deprel": "ET",
+"dephead": "6",
+"ref": "20",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "23",
+"ref": "21",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "d\u00e4rf\u00f6r",
+"deprel": "AA",
+"dephead": "23",
+"ref": "22",
+"lemma": "|d\u00e4rf\u00f6r|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "CJ",
+"dephead": "20",
+"ref": "23",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "23",
+"ref": "24",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "konsumera",
+"deprel": "IF",
+"dephead": "24",
+"ref": "25",
+"lemma": "|konsumera|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "mer",
+"deprel": "AA",
+"dephead": "28",
+"ref": "26",
+"lemma": "|mer|mycket|",
+"msd": "AB.KOM",
+"pos": "AB"
+},
+{
+"word": "\u00e4n",
+"deprel": "HD",
+"dephead": "26",
+"ref": "27",
+"lemma": "|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "andra",
+"deprel": "DT",
+"dephead": "29",
+"ref": "28",
+"lemma": "|andra|annan|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "grupper",
+"deprel": "OO",
+"dephead": "25",
+"ref": "29",
+"lemma": "|grupp|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "29",
+"ref": "30",
+"lemma": "|i|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "samh\u00e4llet",
+"deprel": "PA",
+"dephead": "30",
+"ref": "31",
+"lemma": "|samh\u00e4lle|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "4",
+"ref": "32",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 52964,
+"start": 7,
+"end": 11
+},
+"structs": {
+"text_date": "2008-12-03 16:03:08",
+"text_id": "coverage-infor-a-kasseamnesti",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "DT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|en|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "grupper",
+"deprel": "SS",
+"dephead": "8",
+"ref": "2",
+"lemma": "|grupp|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "4",
+"ref": "3",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "drabbas",
+"deprel": "ET",
+"dephead": "2",
+"ref": "4",
+"lemma": "|drabba|",
+"msd": "VB.PRS.SFO",
+"pos": "VB"
+},
+{
+"word": "av",
+"deprel": "AA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|av|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "h\u00f6g",
+"deprel": "AT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|h\u00f6g|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "arbetsl\u00f6shet",
+"deprel": "PA",
+"dephead": "5",
+"ref": "7",
+"lemma": "|arbetsl\u00f6shet|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "kommer",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "8",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "annars",
+"deprel": "AA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|annars|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "8",
+"ref": "10",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00e5",
+"deprel": "IF",
+"dephead": "10",
+"ref": "11",
+"lemma": "|f\u00e5|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "betala",
+"deprel": "VG",
+"dephead": "11",
+"ref": "12",
+"lemma": "|betala|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "\u00e4nnu",
+"deprel": "AA",
+"dephead": "14",
+"ref": "13",
+"lemma": "|\u00e4nnu|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "h\u00f6gre",
+"deprel": "AT",
+"dephead": "15",
+"ref": "14",
+"lemma": "|h\u00f6g|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "avgifter",
+"deprel": "OO",
+"dephead": "12",
+"ref": "15",
+"lemma": "|avgift|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "8",
+"ref": "16",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 53235,
+"start": 10,
+"end": 13
+},
+"structs": {
+"text_date": "2008-12-08 22:44:07",
+"text_id": "coverage-efterlyses-rodgront-svar-pa-utanforskap",
+"text_author": "Nisha Besara"
+},
+"tokens": [
+{
+"word": "Det",
+"deprel": "DT",
+"dephead": "6",
+"ref": "1",
+"lemma": "|den|en|",
+"msd": "DT.NEU.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "nya",
+"deprel": "CJ",
+"dephead": "3",
+"ref": "2",
+"lemma": "|ny|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": ",",
+"deprel": "AT",
+"dephead": "6",
+"ref": "3",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "t\u00e4tare",
+"deprel": "CJ",
+"dephead": "3",
+"ref": "4",
+"lemma": "|t\u00e4t|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "11",
+"ref": "5",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "samarbetet",
+"deprel": "SS",
+"dephead": "11",
+"ref": "6",
+"lemma": "|samarbete|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "med",
+"deprel": "ET",
+"dephead": "6",
+"ref": "7",
+"lemma": "|med|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "v\u00e4nsterpartiet",
+"deprel": "CJ",
+"dephead": "9",
+"ref": "8",
+"lemma": "|v\u00e4nsterparti|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "PA",
+"dephead": "7",
+"ref": "9",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "milj\u00f6partiet",
+"deprel": "CJ",
+"dephead": "9",
+"ref": "10",
+"lemma": "|milj\u00f6parti|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "kommer",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "11",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "11",
+"ref": "12",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "ge",
+"deprel": "IF",
+"dephead": "12",
+"ref": "13",
+"lemma": "|ge|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "socialdemokraterna",
+"deprel": "IO",
+"dephead": "13",
+"ref": "14",
+"lemma": "|socialdemokrat|",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "17",
+"ref": "15",
+"lemma": "|en|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "oumb\u00e4rlig",
+"deprel": "AT",
+"dephead": "17",
+"ref": "16",
+"lemma": "|oumb\u00e4rlig|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "knuff",
+"deprel": "OO",
+"dephead": "13",
+"ref": "17",
+"lemma": "|knuff|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "RA",
+"dephead": "13",
+"ref": "18",
+"lemma": "|i|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "ryggen",
+"deprel": "PA",
+"dephead": "18",
+"ref": "19",
+"lemma": "|rygg|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "11",
+"ref": "20",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 78078,
+"start": 4,
+"end": 8
+},
+"structs": {
+"text_date": "2008-12-07 23:20:51",
+"text_id": "coverage-alla-ska-med-men-vart",
+"text_author": "Nisha Besara"
+},
+"tokens": [
+{
+"word": "Och",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "svett",
+"deprel": "MS",
+"dephead": "1",
+"ref": "2",
+"lemma": "|svett|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "2",
+"ref": "3",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "det",
+"deprel": "FS",
+"dephead": "5",
+"ref": "4",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "kommer",
+"deprel": "MS",
+"dephead": "1",
+"ref": "5",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "det",
+"deprel": "FS",
+"dephead": "5",
+"ref": "6",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "5",
+"ref": "7",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "kr\u00e4vas",
+"deprel": "IF",
+"dephead": "7",
+"ref": "8",
+"lemma": "|kr\u00e4va|kr\u00e4vas|",
+"msd": "VB.INF.SFO",
+"pos": "VB"
+},
+{
+"word": "mycket",
+"deprel": "AA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|mycket|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "av",
+"deprel": "PL",
+"dephead": "8",
+"ref": "10",
+"lemma": "|av|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "f\u00f6r",
+"deprel": "AA",
+"dephead": "8",
+"ref": "11",
+"lemma": "|f\u00f6r|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "att",
+"deprel": "HD",
+"dephead": "11",
+"ref": "12",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "socialdemokraterna",
+"deprel": "CJ",
+"dephead": "16",
+"ref": "13",
+"lemma": "|socialdemokrat|",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "16",
+"ref": "14",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "v\u00e4nsterpartiet",
+"deprel": "CJ",
+"dephead": "16",
+"ref": "15",
+"lemma": "|v\u00e4nsterparti|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "SS",
+"dephead": "18",
+"ref": "16",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "milj\u00f6partiet",
+"deprel": "CJ",
+"dephead": "16",
+"ref": "17",
+"lemma": "|milj\u00f6parti|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "ska",
+"deprel": "UA",
+"dephead": "11",
+"ref": "18",
+"lemma": "|skola|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "bli",
+"deprel": "VG",
+"dephead": "18",
+"ref": "19",
+"lemma": "|bli|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "ett",
+"deprel": "DT",
+"dephead": "24",
+"ref": "20",
+"lemma": "|en|",
+"msd": "DT.NEU.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "trov\u00e4rdigt",
+"deprel": "CJ",
+"dephead": "22",
+"ref": "21",
+"lemma": "|trov\u00e4rdig|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "och",
+"deprel": "AT",
+"dephead": "24",
+"ref": "22",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "samk\u00f6rt",
+"deprel": "CJ",
+"dephead": "22",
+"ref": "23",
+"lemma": "|samk\u00f6ra|",
+"msd": "PC.PRF.NEU.SIN.IND.NOM",
+"pos": "PC"
+},
+{
+"word": "alternativ",
+"deprel": "SP",
+"dephead": "19",
+"ref": "24",
+"lemma": "|alternativ|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "OA",
+"dephead": "19",
+"ref": "25",
+"lemma": "|till|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "den",
+"deprel": "DT",
+"dephead": "28",
+"ref": "26",
+"lemma": "|den|en|",
+"msd": "DT.UTR.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "borgerliga",
+"deprel": "AT",
+"dephead": "28",
+"ref": "27",
+"lemma": "|borgerlig|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "alliansen",
+"deprel": "PA",
+"dephead": "25",
+"ref": "28",
+"lemma": "|allians|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "28",
+"ref": "29",
+"lemma": "|i|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "n\u00e4sta",
+"deprel": "DT",
+"dephead": "31",
+"ref": "30",
+"lemma": "|n\u00e4sta|",
+"msd": "JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "val",
+"deprel": "PA",
+"dephead": "29",
+"ref": "31",
+"lemma": "|val|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "5",
+"ref": "32",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 78993,
+"start": 23,
+"end": 26
+},
+"structs": {
+"text_date": "2008-12-11 21:30:08",
+"text_id": "coverage-krugman-har-natt-fram-till-alliansen",
+"text_author": "Nisha Besara"
+},
+"tokens": [
+{
+"word": "Annars",
+"deprel": "AA",
+"dephead": "2",
+"ref": "1",
+"lemma": "|annars|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kan",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|kunna|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "2009",
+"deprel": "TA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "bli",
+"deprel": "VG",
+"dephead": "2",
+"ref": "4",
+"lemma": "|bli|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "\u00e4nnu",
+"deprel": "AA",
+"dephead": "6",
+"ref": "5",
+"lemma": "|\u00e4nnu|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "mer",
+"deprel": "AT",
+"dephead": "8",
+"ref": "6",
+"lemma": "|mer|mycket|",
+"msd": "AB.KOM",
+"pos": "AB"
+},
+{
+"word": "\"",
+"deprel": "IC",
+"dephead": "8",
+"ref": "7",
+"lemma": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "skit\u00e5r",
+"deprel": "SP",
+"dephead": "4",
+"ref": "8",
+"lemma": "|skit\u00e5r|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\"",
+"deprel": "JC",
+"dephead": "8",
+"ref": "9",
+"lemma": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "4",
+"ref": "10",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "f\u00f6r",
+"deprel": "AA",
+"dephead": "4",
+"ref": "11",
+"lemma": "|f\u00f6r|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "att",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "citera",
+"deprel": "IF",
+"dephead": "12",
+"ref": "13",
+"lemma": "|citera|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "arbetsmarkandsminister",
+"deprel": "DT",
+"dephead": "15",
+"ref": "14",
+"lemma": "|arbetsmarkandsminister|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "Sven-Otto",
+"deprel": "OO",
+"dephead": "13",
+"ref": "15",
+"lemma": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Littorin",
+"deprel": "HD",
+"dephead": "15",
+"ref": "16",
+"lemma": "|Littorin|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "(",
+"deprel": "IR",
+"dephead": "15",
+"ref": "17",
+"lemma": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "m",
+"deprel": "ET",
+"dephead": "15",
+"ref": "18",
+"lemma": "|m|",
+"msd": "NN.AN",
+"pos": "NN"
+},
+{
+"word": ")",
+"deprel": "JR",
+"dephead": "15",
+"ref": "19",
+"lemma": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "4",
+"ref": "20",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "\u00e4n",
+"deprel": "KA",
+"dephead": "4",
+"ref": "21",
+"lemma": "|\u00e4n|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "24",
+"ref": "22",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "redan",
+"deprel": "TA",
+"dephead": "24",
+"ref": "23",
+"lemma": "|redan|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "21",
+"ref": "24",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "24",
+"ref": "25",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "bli",
+"deprel": "IF",
+"dephead": "25",
+"ref": "26",
+"lemma": "|bli|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "27",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 89163,
+"start": 9,
+"end": 12
+},
+"structs": {
+"text_date": "2008-12-03 16:03:08",
+"text_id": "coverage-infor-a-kasseamnesti",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "Men",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|men|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "nu",
+"deprel": "TA",
+"dephead": "3",
+"ref": "2",
+"lemma": "|nu|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "m\u00e5ste",
+"deprel": "MS",
+"dephead": "1",
+"ref": "3",
+"lemma": "|m\u00e5ste|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "3",
+"ref": "4",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "handla",
+"deprel": "VG",
+"dephead": "3",
+"ref": "5",
+"lemma": "|handla|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|om|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "DT",
+"dephead": "8",
+"ref": "7",
+"lemma": "|en|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "m\u00e4nniskor",
+"deprel": "PA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|m\u00e4nniska|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "10",
+"ref": "9",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "kommer",
+"deprel": "ET",
+"dephead": "8",
+"ref": "10",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "10",
+"ref": "11",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "drabbas",
+"deprel": "IF",
+"dephead": "11",
+"ref": "12",
+"lemma": "|drabba|",
+"msd": "VB.INF.SFO",
+"pos": "VB"
+},
+{
+"word": "av",
+"deprel": "AG",
+"dephead": "12",
+"ref": "13",
+"lemma": "|av|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "arbetsl\u00f6shet",
+"deprel": "PA",
+"dephead": "13",
+"ref": "14",
+"lemma": "|arbetsl\u00f6shet|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "under",
+"deprel": "TA",
+"dephead": "12",
+"ref": "15",
+"lemma": "|under|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "den",
+"deprel": "DT",
+"dephead": "18",
+"ref": "16",
+"lemma": "|den|en|",
+"msd": "DT.UTR.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "kommande",
+"deprel": "AT",
+"dephead": "18",
+"ref": "17",
+"lemma": "|komma|kommande|",
+"msd": "PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "PC"
+},
+{
+"word": "perioden",
+"deprel": "PA",
+"dephead": "15",
+"ref": "18",
+"lemma": "|period|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "19",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 89191,
+"start": 18,
+"end": 21
+},
+"structs": {
+"text_date": "2008-12-03 16:03:08",
+"text_id": "coverage-infor-a-kasseamnesti",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "Under",
+"deprel": "TA",
+"dephead": "14",
+"ref": "1",
+"lemma": "|under|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "sin",
+"deprel": "DT",
+"dephead": "4",
+"ref": "2",
+"lemma": "|sig|",
+"msd": "PS.UTR.SIN.DEF",
+"pos": "PS"
+},
+{
+"word": "f\u00f6rsta",
+"deprel": "DT",
+"dephead": "4",
+"ref": "3",
+"lemma": "|",
+"msd": "RO.NOM",
+"pos": "RO"
+},
+{
+"word": "presskonferens",
+"deprel": "PA",
+"dephead": "1",
+"ref": "4",
+"lemma": "|presskonferens|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "efter",
+"deprel": "ET",
+"dephead": "4",
+"ref": "5",
+"lemma": "|efter|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "att",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "ha",
+"deprel": "IF",
+"dephead": "6",
+"ref": "7",
+"lemma": "|ha|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "blivit",
+"deprel": "VG",
+"dephead": "7",
+"ref": "8",
+"lemma": "|bli|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "vald",
+"deprel": "SP",
+"dephead": "8",
+"ref": "9",
+"lemma": "|v\u00e4lja|",
+"msd": "PC.PRF.UTR.SIN.IND.NOM",
+"pos": "PC"
+},
+{
+"word": "till",
+"deprel": "OA",
+"dephead": "8",
+"ref": "10",
+"lemma": "|till|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "USA:s",
+"deprel": "DT",
+"dephead": "13",
+"ref": "11",
+"lemma": "|",
+"msd": "PM.GEN",
+"pos": "PM"
+},
+{
+"word": "n\u00e4ste",
+"deprel": "AT",
+"dephead": "13",
+"ref": "12",
+"lemma": "|n\u00e4sta|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "president",
+"deprel": "PA",
+"dephead": "10",
+"ref": "13",
+"lemma": "|president|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "meddelade",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "14",
+"lemma": "|meddela|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "Barack",
+"deprel": "SS",
+"dephead": "14",
+"ref": "15",
+"lemma": "|Barack|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Obama",
+"deprel": "HD",
+"dephead": "15",
+"ref": "16",
+"lemma": "|Obama|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "14",
+"ref": "17",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "arbetsl\u00f6shetsers\u00e4ttningen",
+"deprel": "SS",
+"dephead": "19",
+"ref": "18",
+"lemma": "|arbetsl\u00f6shetsers\u00e4ttning|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "17",
+"ref": "19",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "19",
+"ref": "20",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "h\u00f6jas",
+"deprel": "IF",
+"dephead": "20",
+"ref": "21",
+"lemma": "|",
+"msd": "VB.INF.SFO",
+"pos": "VB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "14",
+"ref": "22",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 95608,
+"start": 3,
+"end": 6
+},
+"structs": {
+"text_date": "2008-12-09 22:42:07",
+"text_id": "coverage-krisen-slar-inte-konsblint",
+"text_author": "Katrine Kielos"
+},
+"tokens": [
+{
+"word": "Vad",
+"deprel": "SS",
+"dephead": "13",
+"ref": "1",
+"lemma": "|vad|vad_\u00e4n|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "4",
+"ref": "2",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "nu",
+"deprel": "TA",
+"dephead": "4",
+"ref": "3",
+"lemma": "|nu|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "ET",
+"dephead": "1",
+"ref": "4",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "4",
+"ref": "5",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "h\u00e4nda",
+"deprel": "IF",
+"dephead": "5",
+"ref": "6",
+"lemma": "|h\u00e4nda|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "6",
+"ref": "7",
+"lemma": "|med|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "den",
+"deprel": "DT",
+"dephead": "10",
+"ref": "8",
+"lemma": "|den|en|den_h\u00e4r|",
+"msd": "DT.UTR.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "h\u00e4r",
+"deprel": "HD",
+"dephead": "8",
+"ref": "9",
+"lemma": "|h\u00e4r|den_h\u00e4r:8|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "typen",
+"deprel": "PA",
+"dephead": "7",
+"ref": "10",
+"lemma": "|typ|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "10",
+"ref": "11",
+"lemma": "|av|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "arbeten",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|arbete|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "13",
+"lemma": "|vara|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "sv\u00e5rt",
+"deprel": "SP",
+"dephead": "13",
+"ref": "14",
+"lemma": "|sv\u00e5r|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "att",
+"deprel": "OA",
+"dephead": "13",
+"ref": "15",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "s\u00e4ga",
+"deprel": "IF",
+"dephead": "15",
+"ref": "16",
+"lemma": "|s\u00e4ga|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "16",
+"ref": "17",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "f\u00f6rutom",
+"deprel": "CJ",
+"dephead": "24",
+"ref": "18",
+"lemma": "|f\u00f6rutom|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "att",
+"deprel": "PA",
+"dephead": "18",
+"ref": "19",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "m\u00e5nga",
+"deprel": "SS",
+"dephead": "21",
+"ref": "20",
+"lemma": "|m\u00e5ngen|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "19",
+"ref": "21",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "21",
+"ref": "22",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00f6rsvinna",
+"deprel": "IF",
+"dephead": "22",
+"ref": "23",
+"lemma": "|f\u00f6rsvinna|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "och",
+"deprel": "OA",
+"dephead": "13",
+"ref": "24",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "att",
+"deprel": "CJ",
+"dephead": "24",
+"ref": "25",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "28",
+"ref": "26",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "antagligen",
+"deprel": "MA",
+"dephead": "28",
+"ref": "27",
+"lemma": "|antagligen|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "25",
+"ref": "28",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "28",
+"ref": "29",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00e5",
+"deprel": "IF",
+"dephead": "29",
+"ref": "30",
+"lemma": "|f\u00e5|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "mindre",
+"deprel": "AT",
+"dephead": "32",
+"ref": "31",
+"lemma": "|liten|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "uppm\u00e4rksamhet",
+"deprel": "OO",
+"dephead": "30",
+"ref": "32",
+"lemma": "|uppm\u00e4rksamhet|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e4n",
+"deprel": "ET",
+"dephead": "32",
+"ref": "33",
+"lemma": "|vad_\u00e4n:1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "n\u00e4r",
+"deprel": "TA",
+"dephead": "38",
+"ref": "34",
+"lemma": "|n\u00e4r|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "General",
+"deprel": "SS",
+"dephead": "38",
+"ref": "35",
+"lemma": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Motors",
+"deprel": "HD",
+"dephead": "35",
+"ref": "36",
+"lemma": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "eventuellt",
+"deprel": "AA",
+"dephead": "38",
+"ref": "37",
+"lemma": "|eventuell|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "brakar",
+"deprel": "UA",
+"dephead": "33",
+"ref": "38",
+"lemma": "|braka|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "samman",
+"deprel": "PL",
+"dephead": "38",
+"ref": "39",
+"lemma": "|samman|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "13",
+"ref": "40",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 95625,
+"start": 20,
+"end": 23
+},
+"structs": {
+"text_date": "2008-12-09 22:42:07",
+"text_id": "coverage-krisen-slar-inte-konsblint",
+"text_author": "Katrine Kielos"
+},
+"tokens": [
+{
+"word": "Vad",
+"deprel": "SS",
+"dephead": "13",
+"ref": "1",
+"lemma": "|vad|vad_\u00e4n|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "4",
+"ref": "2",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "nu",
+"deprel": "TA",
+"dephead": "4",
+"ref": "3",
+"lemma": "|nu|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "ET",
+"dephead": "1",
+"ref": "4",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "4",
+"ref": "5",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "h\u00e4nda",
+"deprel": "IF",
+"dephead": "5",
+"ref": "6",
+"lemma": "|h\u00e4nda|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "6",
+"ref": "7",
+"lemma": "|med|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "den",
+"deprel": "DT",
+"dephead": "10",
+"ref": "8",
+"lemma": "|den|en|den_h\u00e4r|",
+"msd": "DT.UTR.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "h\u00e4r",
+"deprel": "HD",
+"dephead": "8",
+"ref": "9",
+"lemma": "|h\u00e4r|den_h\u00e4r:8|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "typen",
+"deprel": "PA",
+"dephead": "7",
+"ref": "10",
+"lemma": "|typ|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "10",
+"ref": "11",
+"lemma": "|av|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "arbeten",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|arbete|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "13",
+"lemma": "|vara|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "sv\u00e5rt",
+"deprel": "SP",
+"dephead": "13",
+"ref": "14",
+"lemma": "|sv\u00e5r|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "att",
+"deprel": "OA",
+"dephead": "13",
+"ref": "15",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "s\u00e4ga",
+"deprel": "IF",
+"dephead": "15",
+"ref": "16",
+"lemma": "|s\u00e4ga|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "16",
+"ref": "17",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "f\u00f6rutom",
+"deprel": "CJ",
+"dephead": "24",
+"ref": "18",
+"lemma": "|f\u00f6rutom|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "att",
+"deprel": "PA",
+"dephead": "18",
+"ref": "19",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "m\u00e5nga",
+"deprel": "SS",
+"dephead": "21",
+"ref": "20",
+"lemma": "|m\u00e5ngen|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "19",
+"ref": "21",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "21",
+"ref": "22",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00f6rsvinna",
+"deprel": "IF",
+"dephead": "22",
+"ref": "23",
+"lemma": "|f\u00f6rsvinna|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "och",
+"deprel": "OA",
+"dephead": "13",
+"ref": "24",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "att",
+"deprel": "CJ",
+"dephead": "24",
+"ref": "25",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "28",
+"ref": "26",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "antagligen",
+"deprel": "MA",
+"dephead": "28",
+"ref": "27",
+"lemma": "|antagligen|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "25",
+"ref": "28",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "28",
+"ref": "29",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00e5",
+"deprel": "IF",
+"dephead": "29",
+"ref": "30",
+"lemma": "|f\u00e5|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "mindre",
+"deprel": "AT",
+"dephead": "32",
+"ref": "31",
+"lemma": "|liten|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "uppm\u00e4rksamhet",
+"deprel": "OO",
+"dephead": "30",
+"ref": "32",
+"lemma": "|uppm\u00e4rksamhet|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e4n",
+"deprel": "ET",
+"dephead": "32",
+"ref": "33",
+"lemma": "|vad_\u00e4n:1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "n\u00e4r",
+"deprel": "TA",
+"dephead": "38",
+"ref": "34",
+"lemma": "|n\u00e4r|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "General",
+"deprel": "SS",
+"dephead": "38",
+"ref": "35",
+"lemma": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Motors",
+"deprel": "HD",
+"dephead": "35",
+"ref": "36",
+"lemma": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "eventuellt",
+"deprel": "AA",
+"dephead": "38",
+"ref": "37",
+"lemma": "|eventuell|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "brakar",
+"deprel": "UA",
+"dephead": "33",
+"ref": "38",
+"lemma": "|braka|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "samman",
+"deprel": "PL",
+"dephead": "38",
+"ref": "39",
+"lemma": "|samman|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "13",
+"ref": "40",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 95632,
+"start": 27,
+"end": 30
+},
+"structs": {
+"text_date": "2008-12-09 22:42:07",
+"text_id": "coverage-krisen-slar-inte-konsblint",
+"text_author": "Katrine Kielos"
+},
+"tokens": [
+{
+"word": "Vad",
+"deprel": "SS",
+"dephead": "13",
+"ref": "1",
+"lemma": "|vad|vad_\u00e4n|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "4",
+"ref": "2",
+"lemma": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "nu",
+"deprel": "TA",
+"dephead": "4",
+"ref": "3",
+"lemma": "|nu|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "ET",
+"dephead": "1",
+"ref": "4",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "4",
+"ref": "5",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "h\u00e4nda",
+"deprel": "IF",
+"dephead": "5",
+"ref": "6",
+"lemma": "|h\u00e4nda|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "6",
+"ref": "7",
+"lemma": "|med|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "den",
+"deprel": "DT",
+"dephead": "10",
+"ref": "8",
+"lemma": "|den|en|den_h\u00e4r|",
+"msd": "DT.UTR.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "h\u00e4r",
+"deprel": "HD",
+"dephead": "8",
+"ref": "9",
+"lemma": "|h\u00e4r|den_h\u00e4r:8|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "typen",
+"deprel": "PA",
+"dephead": "7",
+"ref": "10",
+"lemma": "|typ|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "10",
+"ref": "11",
+"lemma": "|av|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "arbeten",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|arbete|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "13",
+"lemma": "|vara|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "sv\u00e5rt",
+"deprel": "SP",
+"dephead": "13",
+"ref": "14",
+"lemma": "|sv\u00e5r|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "att",
+"deprel": "OA",
+"dephead": "13",
+"ref": "15",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "s\u00e4ga",
+"deprel": "IF",
+"dephead": "15",
+"ref": "16",
+"lemma": "|s\u00e4ga|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "16",
+"ref": "17",
+"lemma": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "f\u00f6rutom",
+"deprel": "CJ",
+"dephead": "24",
+"ref": "18",
+"lemma": "|f\u00f6rutom|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "att",
+"deprel": "PA",
+"dephead": "18",
+"ref": "19",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "m\u00e5nga",
+"deprel": "SS",
+"dephead": "21",
+"ref": "20",
+"lemma": "|m\u00e5ngen|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "19",
+"ref": "21",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "21",
+"ref": "22",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00f6rsvinna",
+"deprel": "IF",
+"dephead": "22",
+"ref": "23",
+"lemma": "|f\u00f6rsvinna|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "och",
+"deprel": "OA",
+"dephead": "13",
+"ref": "24",
+"lemma": "|och|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "att",
+"deprel": "CJ",
+"dephead": "24",
+"ref": "25",
+"lemma": "|att|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "28",
+"ref": "26",
+"lemma": "|den|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "antagligen",
+"deprel": "MA",
+"dephead": "28",
+"ref": "27",
+"lemma": "|antagligen|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "25",
+"ref": "28",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "28",
+"ref": "29",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00e5",
+"deprel": "IF",
+"dephead": "29",
+"ref": "30",
+"lemma": "|f\u00e5|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "mindre",
+"deprel": "AT",
+"dephead": "32",
+"ref": "31",
+"lemma": "|liten|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "uppm\u00e4rksamhet",
+"deprel": "OO",
+"dephead": "30",
+"ref": "32",
+"lemma": "|uppm\u00e4rksamhet|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e4n",
+"deprel": "ET",
+"dephead": "32",
+"ref": "33",
+"lemma": "|vad_\u00e4n:1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "n\u00e4r",
+"deprel": "TA",
+"dephead": "38",
+"ref": "34",
+"lemma": "|n\u00e4r|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "General",
+"deprel": "SS",
+"dephead": "38",
+"ref": "35",
+"lemma": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Motors",
+"deprel": "HD",
+"dephead": "35",
+"ref": "36",
+"lemma": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "eventuellt",
+"deprel": "AA",
+"dephead": "38",
+"ref": "37",
+"lemma": "|eventuell|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "brakar",
+"deprel": "UA",
+"dephead": "33",
+"ref": "38",
+"lemma": "|braka|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "samman",
+"deprel": "PL",
+"dephead": "38",
+"ref": "39",
+"lemma": "|samman|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "13",
+"ref": "40",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 116054,
+"start": 1,
+"end": 4
+},
+"structs": {
+"text_date": "2008-12-03 16:03:08",
+"text_id": "coverage-infor-a-kasseamnesti",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "Arbetsl\u00f6sheten",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|arbetsl\u00f6shet|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "kommer",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|komma|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "2",
+"ref": "3",
+"lemma": "|att|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "\u00f6ka",
+"deprel": "IF",
+"dephead": "3",
+"ref": "4",
+"lemma": "|\u00f6ka|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "5",
+"lemma": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 16,
+"corpus_hits": {
+"DA": 16
+},
+"corpus_order": [
+"DA"
+],
+"query_data": "eJwNyssRgDAIBcCW-IagJ2dshJeQ_kvQPS_FmKqN2E0xFdsZBTnqldxVetJ6h6H9yB_Zl5hXUFJhIe_3uXh8tbETaA==\n",
+"time": 0.8531877994537354
+}
