@@ -55,7 +55,7 @@ maincorpora.each do |maincorpus|
                         output_array = []
                         output_array << unique_id
                         corpus_from_json = hit["corpus"]
-                        maincorpus = get_maincorpus(corpus_from_json)
+                        #maincorpus = get_maincorpus(corpus_from_json)
                         #maincorpus = corpus_from_json.split("-")[0].downcase
                         genre = get_genre(maincorpus)
                         output_array << corpus_from_json
