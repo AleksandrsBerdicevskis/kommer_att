@@ -24,7 +24,7 @@ maincorpora.each do |maincorpus|
         
     predictor_file.puts header
     
-    date_sep = {"familjeliv" => " ", "svt" => "T", "da" => " ", "flashback" => " ", "twitter" => " "}
+    date_sep = {"familjeliv" => " ", "svt" => "T", "da" => " ", "flashback" => " ", "twitter" => " ", "webbnyheter" => " "}
     
     
     filelist = Dir.children(input_dir) 
@@ -64,7 +64,7 @@ maincorpora.each do |maincorpus|
                         output_array << match_position
                         match_start = hit["match"]["start"].to_i
                         match_end = hit["match"]["end"].to_i
-                        if maincorpus != "gp" and maincorpus != "bloggmix" and maincorpus != "twitter" and maincorpus != "press2" and maincorpus != "dn"
+                        if maincorpus != "gp" and maincorpus != "bloggmix" and maincorpus != "twitter" and maincorpus != "press2" and maincorpus != "dn" 
                             date = hit["structs"]["text_date"].split(date_sep[maincorpus])[0]
                             time = hit["structs"]["text_date"].split(date_sep[maincorpus])[1]
                         elsif maincorpus == "twitter"
@@ -97,12 +97,17 @@ maincorpora.each do |maincorpus|
                             username = hit["structs"]["user_username"]
                         elsif maincorpus == "bloggmix"
                             username = hit["structs"]["blog_title"]
+                        elsif maincorpus == "webbnyheter"
+                            section = hit["structs"]["text_newspaper"]
                         end
                         
                         if maincorpus == "gp" 
                             message_id = hit["structs"]["text_title"]
                         elsif maincorpus == "bloggmix"
                             message_id = "#{hit["structs"]["text_title"]}___#{hit["structs"]["text_url"]}"
+                        elsif maincorpus == "webbnyheter"
+                            message_id = hit["structs"]["text_url"]
+                        
                         else
                             message_id = hit["structs"]["text_id"]
                         end
