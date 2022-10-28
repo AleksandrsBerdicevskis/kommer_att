@@ -2,11 +2,11 @@ require_relative 'corpus_tools'
 require_relative 'net_tools.rb'
 
 variable = "kommer_att"
+#list all corpora to process (comma separated, no spaces)
 maincorpora = ARGV[0].split(",")
 
-#remove 
+#remove tabs from values (usernames and text ids)
 def cleant(parameter)
-    
     if !parameter.nil?
         parameter.gsub!("\t","")
     end
@@ -19,11 +19,11 @@ maincorpora.each do |maincorpus|
     output_dir = "Summary"
     predictor_file = File.open("#{output_dir}\\#{variable}_predictors_#{maincorpus}.tsv","w:utf-8")
     
- 
     header = "unique_id\tcorpus\tmatch_position\tyear\tauthor\tplaintext\tstatus\tkommer_position\tatt_position\tverb_position\tverb_lemma\tdistance_to_att_words\tdistance_to_att_symbols\tdistance_to_verb_words\tdistance_to_verb_symbols\tvoice\tinf_length\tatt_before\tdistance_att_before_words\tdistance_att_before_symbols\tatt_between\tatt_after\tdistance_att_after_words\tdistance_att_after_symbols\tsubject_id\tsubject_form\tsubject_lemma\tsubject_type\tsubject_pos\tsubject_relpos\tgenre\tmonth\tday\ttime\ttext_id\tthread_id\tposlist\tsection\tshortsection\tuserid"
         
     predictor_file.puts header
     
+    #what separates date from time in a given corpus
     date_sep = {"familjeliv" => " ", "svt" => "T", "da" => " ", "flashback" => " ", "twitter" => " ", "webbnyheter" => " "}
     
     
@@ -55,8 +55,6 @@ maincorpora.each do |maincorpus|
                         output_array = []
                         output_array << unique_id
                         corpus_from_json = hit["corpus"]
-                        #maincorpus = get_maincorpus(corpus_from_json)
-                        #maincorpus = corpus_from_json.split("-")[0].downcase
                         genre = get_genre(maincorpus)
                         output_array << corpus_from_json
                         match_position = hit["match"]["position"]
@@ -64,6 +62,8 @@ maincorpora.each do |maincorpus|
                         output_array << match_position
                         match_start = hit["match"]["start"].to_i
                         match_end = hit["match"]["end"].to_i
+
+                        #which structural parameters have to be extracted
                         if maincorpus != "gp" and maincorpus != "bloggmix" and maincorpus != "twitter" and maincorpus != "press2" and maincorpus != "dn" 
                             date = hit["structs"]["text_date"].split(date_sep[maincorpus])[0]
                             time = hit["structs"]["text_date"].split(date_sep[maincorpus])[1]
@@ -117,7 +117,7 @@ maincorpora.each do |maincorpus|
                         output_array << year
                         output_array << cleant(username)
                         
-                        #tokens_rep = []
+                        #word-level parameters
                         tokens = hit["tokens"]
                         
                         kommer_id = 0
@@ -160,8 +160,6 @@ maincorpora.each do |maincorpus|
                         distance_att_before_symbols = ""
                         distance_att_after_words = ""
                         distance_att_after_symbols = ""
-                        #distance_att_after_words_from_last_verb = ""
-                        #distance_att_after_symbols_from_last_verb = ""
                         count_distance = true
                         
                     
@@ -225,7 +223,7 @@ maincorpora.each do |maincorpus|
                             elsif id > match_start+1 and id < match_end
                                 
                                 if token["word"] == "att" 
-                                    count_distance = false #it MIGHT be a different att, otherwise we do not need the extra check below. But that will change once I add syntax
+                                    count_distance = false 
                                     att_ids << id
                                     att_heads << head
                                 end
@@ -265,7 +263,7 @@ maincorpora.each do |maincorpus|
                                     inf_complexity += 1
                                     inf_head = id
                                     vg_att_flag = false
-                                elsif token["word"] == "att" and head == inf_head #add deprel?
+                                elsif token["word"] == "att" and head == inf_head #we are not looking at the deprel, since the annotation schema is not documented
                                 
                                     vg_att_flag = true
                                     vg_att_head = id
@@ -323,12 +321,12 @@ maincorpora.each do |maincorpus|
                             distance_att_after_symbols = ""
                         end
                     
-                        if maincorpus == "bloggmix" and !hit["structs"]["blog_age"].nil? and hit["structs"]["blog_age"] != ""and !hit["structs"]["blog_age"].include?("-")
-                            if !(hit["structs"]["blog_age"].to_i > 80 or hit["structs"]["blog_age"].to_i < 12)
-                                birthyear = year.to_i - hit["structs"]["blog_age"].to_i
-                                birthyears << birthyear
-                            end
-                        end
+                        #if maincorpus == "bloggmix" and !hit["structs"]["blog_age"].nil? and hit["structs"]["blog_age"] != "" and !hit["structs"]["blog_age"].include?("-")
+                        #    if !(hit["structs"]["blog_age"].to_i > 80 or hit["structs"]["blog_age"].to_i < 12)
+                        #        birthyear = year.to_i - hit["structs"]["blog_age"].to_i
+                        #        birthyears << birthyear
+                        #    end
+                        #end
                         
                         
                         output_array << distance_words
