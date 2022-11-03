@@ -7,7 +7,7 @@ maincorpora = ["all","bloggmix","da","familjeliv","flashback","gp","svt","twitte
 
 value_hash = Hash.new{|hash,key| hash[key] = Hash.new{|hash1,key1| hash1[key1] = Array.new}}
 status_hash = Hash.new{|hash,key| hash[key] = Hash.new{|hash1,key1| hash1[key1] = Array.new}}
-#correl_hash = Hash.new{|hash,key| hash[key] = Hash.new}
+
 
 
 def pearson(x,y)
@@ -60,9 +60,9 @@ input_file.each_line.with_index do |line, index|
         maincorpus = line2[maincorpus_index]
         
         if line2[test_index] == "0"
-            #STDERR.puts maincorpus
+
             parameters.each do |parameter|
-                #STDERR.puts parameter
+
                 if parameter == "time"
                     year = line2[year_index].to_i
                     month = line2[month_index].to_i
@@ -92,34 +92,16 @@ end
 o = File.open("correl.tsv","w:utf-8")
 o.puts "corpus\t#{parameters.join("\t")}"
 
-STDOUT.puts value_hash["da"]["inf_length"].join("\t")
-STDOUT.puts "fff"
-STDOUT.puts status_hash["da"]["inf_length"].join("\t")
-STDOUT.puts "ggg"
-#STDERR.puts value_hash["da"]["inf_length"][0].is_a?(Float)
-#STDERR.puts status_hash["da"]["inf_length"][0].is_a?(Float)
-#STDOUT.puts "fff"
 
-["da"].each do |maincorpus|
-    output_line = maincorpus
-    STDOUT.puts maincorpus
+maincorpora.each do |maincorpus|
+    
+    output_line = maincorpus.clone
     parameters.each do |parameter|
-        STDOUT.puts parameter
-        #STDERR.puts value_hash["da"]["inf_length"][0].is_a?(Float)
-        #STDERR.puts status_hash["da"]["inf_length"][0].is_a?(Float)
- 
-        #R.assign "u1", value_hash[maincorpus][parameter]
-        #R.assign "u2", status_hash[maincorpus][parameter]
-        STDOUT.puts value_hash["da"]["inf_length"].join("\t")
-        STDOUT.puts "fff"
-        STDOUT.puts status_hash["da"]["inf_length"].join("\t")
-        STDOUT.puts "ggg"
-        #r = R.pull "cor.test(u1,u2,method='pearson')$estimate"
-        r = pearson(value_hash[maincorpus][parameter],status_hash[maincorpus][parameter])
-        #correl_hash[parameter][maincorpus] = r
+        x = value_hash[maincorpus][parameter]
+        y = status_hash[maincorpus][parameter]
+        r = pearson(x,y)
         output_line << "\t#{r}"
     end
     o.puts output_line
-    abort
 end
 
