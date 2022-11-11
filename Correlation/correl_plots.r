@@ -1,5 +1,5 @@
 dataset <- read.csv("correl.tsv",sep="\t",header=TRUE)
-par(mfrow = c(2,4))
+par(mfrow = c(4,2),cex.axis=1.1, cex.main = 1.3)
 barplot(dataset$time,ylim=c(-0.1,0.3),col=c("red","green","brown","blue","yellow","gray","orange"),main="time",names.arg=dataset$corpus,las=2)
 barplot(dataset$attraction,ylim=c(-0.1,0.3),col=c("red","green","brown","blue","yellow","gray","orange"),main="attraction",names.arg=dataset$corpus,las=2)
 barplot(dataset$distance_to_att_words,ylim=c(-0.1,0.3),col=c("red","green","brown","blue","yellow","gray","orange"),main="distance",names.arg=dataset$corpus,las=2)
