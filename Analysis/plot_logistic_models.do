@@ -29,8 +29,7 @@ replace tbest = "*" if best == test_accuracy
 gen stringmodel = "M_I"
 replace stringmodel = "M_II"  if model == 2
 replace stringmodel = "M_III"  if model == 3
-
-
+replace stringmodel = "M_IV"  if model == 4
 
 gen tmodel = stringmodel+tbest
 
@@ -42,11 +41,11 @@ keep if split == `1'
 
 if `1' == 1 {
 	local title consecutive
-	local graph_title figure1
+	local graph_title figure2
 	}
 if `1' == 2 {
 	local title non_consecutive
-	local graph_title figure5
+	local graph_title figure_C1
 	}	
 	
 
@@ -59,7 +58,7 @@ foreach corpus of local corpora {
 		keep if corpus == "`corpus'"
 		
 		graph hbar (asis) test_accuracy, over(tmodel, label(labsize(*1.2)) sort(model) gap(5)) blabel(bar, format(%3.2f) position(base) color(white) size(*1.05)) nofill graphregion(color(white)) ///  
-		scheme(s2mono) yscale(nofextend) ylabel(,nogrid) ytitle(" ") title("`corpus'") nodraw saving(`corpus'.gph, replace) yscale(nofextend) 
+		scheme(s2mono) yscale(nofextend) ylabel(0 20 40 60 80,nogrid) ytitle(" ") title("`corpus'") nodraw saving(`corpus'.gph, replace) yscale(nofextend) 
 		local text "`text' `corpus'.gph"
 		restore
 	}
@@ -82,7 +81,7 @@ foreach corpus of local corpora {
 
 keep if tbest == "*"
 drop if perc_diff == 0
-gen string = string(perc_diff,"%3.2f")
+gen string = string(perc_diff,"%4.2f")
 
 
 sort corpus model

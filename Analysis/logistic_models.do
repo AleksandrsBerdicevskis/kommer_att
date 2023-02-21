@@ -52,8 +52,8 @@ if `model' == 2 {
 	local covariates
 }
 
-if `model' == 3 {
-	local covariates `"subject voice att_before att_after distance_to_att_words inf_length"'
+if (`model' == 3 | `model' == 4) {
+	local covariates `"subject voice att_before att_after att_interaction distance_to_att_words inf_length"'
 }
 
 capture noisily {
@@ -74,7 +74,7 @@ if `model' == 2   {
 }
 if `model' == 3  {
 	
-		*Degree-2 fractional polynomial for attraction
+		*Degree-2 fractional polynomial for attraction (trained without inclusion of 'month')
 		fp <attraction>, dimension(2) classic : logit outcome <attraction> `covariates' if test == 0, iterate(10)
 		*Extract command line to generate new variables that include the test data
 		local attraction_command = e(fp_gen_cmdline)
@@ -90,9 +90,52 @@ if `model' == 3  {
 		cap drop month_* 
 		*Generate fp2
 		`command'
-		
+
 		*Fit model
 		logit outcome month_* `covariates' attraction_* if test == 0
+	
+}
+
+if `model' == 4  {
+	
+		*Degree-2 fractional polynomial for attraction (trained without inclusion of 'month')
+		fp <attraction>, dimension(2) classic : logit outcome <attraction> `covariates' if test == 0, iterate(10)
+		*Extract command line to generate new variables that include the test data
+		local attraction_command = e(fp_gen_cmdline)
+		*Drop already generated variables
+		cap drop attraction_* 
+		*Generate fp2
+		`attraction_command'
+	
+		fp <month>, `fp_text' classic : logit outcome c.<month>##(`covariates' c.attraction_1 c.attraction_2) if test == 0
+		*Extract command line to generate new variables that include the test data
+		local command = e(fp_gen_cmdline)
+		*Drop already generated variables
+		cap drop month_* 
+		*Generate fp2
+		`command'
+	
+		
+		*Specificy interactions depending on degree of fractional polynomial and fit models with interactions
+		if (`fp_spec' == 0 | `fp_spec' == 1) {
+			logit outcome ///
+				c.month_1##(`covariates' c.attraction_1 c.attraction_2) ///
+				if test == 0
+		}
+		if (`fp_spec' == 2) {
+			logit outcome ///
+				c.month_1##(`covariates' c.attraction_1 c.attraction_2) ///
+				c.month_2##(`covariates' c.attraction_1 c.attraction_2) ///
+				if test == 0
+		}
+		if (`fp_spec' == 3) {
+			logit ///
+				c.month_1##(`covariates' c.attraction_1 c.attraction_2) ///
+				c.month_2##(`covariates' c.attraction_1 c.attraction_2) ///
+				c.month_3##(`covariates' c.attraction_1 c.attraction_2) ///
+				if test == 0
+		}
+
 }
 
 }
@@ -163,7 +206,15 @@ if _rc == 0 {
 	
 	*Check for training
 	estat classification if test == 1, cutoff(`cutoff') 
-	local test_accuracy = r(P_corr)
+	local test_accuracy = r(P_corr) 
+	
+	*Information for confusion matrix https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
+	mat ctable = r(ctable)
+	local tp = ctable[1,1]
+	local tn = ctable[2,2]
+	local fn = ctable[2,1]
+	local fp = ctable[1,2]
+	
 	
 	*Prepare finished file
 	clear
@@ -180,6 +231,11 @@ if _rc == 0 {
 		}
 	gen train_accuracy	= `train_accuracy'
 	gen test_accuracy		= `test_accuracy'
+	gen tp	= `tp'
+	gen tn	= `tn'
+	gen fn 	= `fn'
+	gen fp 	= `fp'
+	
 	gen acc_ratio_train	= `acc_ratio_train'
 	gen acc_ratio_test	= `acc_ratio_test'
 	gen AIC = `AIC'

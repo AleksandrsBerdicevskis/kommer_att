@@ -10,5 +10,3 @@ Be careful with "call_logistic_models.do", as it serves as a 'master instance' a
 Once an instance has finished it‘s job, it sends back the relevant info to the master instance and exits itself. 
 So unless you have a powerful computing server with a least several hundreds of available RAM, please be careful to avoid crashing your system/server. 
 *-------------------*
-contact: koplenig@ids-mannheim.de
-*-------------------*

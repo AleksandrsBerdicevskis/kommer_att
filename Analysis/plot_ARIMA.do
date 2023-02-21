@@ -3,10 +3,10 @@ local dir `c(pwd)'
 local type `1'
 
 if "`1'" == "full_sample" {
-	local graph_title figure3
+	local graph_title figure4
 	}
 if "`1'" == "one_step" {
-	local graph_title figure4
+	local graph_title figure5
 	}	
  
 local text

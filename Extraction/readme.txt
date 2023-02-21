@@ -4,5 +4,3 @@ In order to run the scripts you would need to install Ruby and the 'json' gem. T
 Known compatilibity issues: if you use version 3.x, you may have to replace the deprecated URI.escape method.
 
 Run reproduce.rb to reproduce the whole process (NB: long and somewhat unstable process which will download several gigabytes of data), see comments inside the script to reproduce separate steps.
-
-Contact: aleksandrs.berdicevskis@gu.se

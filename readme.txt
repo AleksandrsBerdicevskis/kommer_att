@@ -1,6 +1,6 @@
 1. The folder "Extraction" contains all the tools that are necessary to reproduce the automatic extraction and annotation of data.
-The full dataset is available here: LINK
+*The full dataset is not included. The file was too large to upload via the CLLT submission system or share anonymously via a repository. We mentioned in the Cover letter that we are happy to share the file in any way the Editor finds appropriate.*
 2. The folder "Manual_spotcheck" contains the manually checked sample.
 3. The folder "Correlation" contains the scripts that are necessary to reproduce the visualization in Section 3.5
 4. The folder "Analysis" contains the scripts that are necessary to perform the statistical analysis.
-The balanced samples that were extracted for analysis are available here: LINK
+*The balanced samples that were extracted for analysis are included as separate attachments for the consecutive split (main text). The files for the random split (Appendix C) were not accepted by the CLLT submission system since the size limit was reached. We mentioned in the Cover letter that we are happy to share the files in any way the Editor finds appropriate.*

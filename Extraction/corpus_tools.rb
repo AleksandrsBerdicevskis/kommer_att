@@ -1,9 +1,6 @@
-#PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\KorpApi\\"
 PATH = ""
 
 def get_years(corpus,maincorpus,yearlycorpus=false)
-    #maincorpus = get_maincorpus(corpus)
-    #STDERR.puts maincorpus,yearlycorpus
     if yearlycorpus and ["svt","gp","bloggmix","press","webbnyheter"].include?(maincorpus)
         years = [corpus[-4..-1].to_i]
     else

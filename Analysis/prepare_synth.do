@@ -1,19 +1,20 @@
 foreach training_type in  non_consecutive consecutive {
 	use samples/all_sample_`training_type', clear
 	
+	set seed 376929              
 	              
-	              
-	*For attraction we generate a normally distributed variable that has 
-	*mean = mean(attraction)-3*sd if outcome == 0
-	*mean = mean(attraction)+3*sd if outcome == 1
 	
 	noisily di "Original"
 	bysort outcome: sum attraction
 	
+	gen random = runiform()
+	*For attraction increase each value of attraction by .2 if outcome == 0 and random >.5
+	qui replace attraction = attraction + .2 if outcome == 0 & random >.5
+	drop random
 	
-	qui replace attraction = rnormal(1, 1) if outcome == 0
-	qui replace attraction = rnormal(3, 1) if outcome == 1  
+
 	
+
 	noisily di "Artificial"
 	bysort outcome: sum attraction
 	
@@ -25,7 +26,7 @@ foreach training_type in  non_consecutive consecutive {
 				
 				gen long datapoints = 1
 		  	
-				gcollapse outcome subject voice att_before att_after distance_to_att_words inf_length genre attraction (sum) datapoints, by(month test) fast
+				gcollapse outcome subject voice att_before att_after att_interaction distance_to_att_words inf_length genre attraction (sum) datapoints, by(month test) fast
 				
 				tsset month, monthly
 				

@@ -104,7 +104,7 @@ gen asterisk = " "
 keep if corpus == "synthetic"
 local corpus synthetic
 
-forvalues i = 1/3 {
+forvalues i = 1/4 {
 	sum fp_spec if model == `i'
 	local fp_spec_`i' = r(mean)
 }
@@ -113,7 +113,7 @@ forvalues i = 1/3 {
 use `dir'/logistic_proportions/`corpus'_1_`fp_spec_1'_1, clear
 drop phat_1
 
-forvalues i = 1/3 {
+forvalues i = 1/4 {
 	merge 1:1 month using  `dir'/logistic_proportions/`corpus'_`i'_`fp_spec_`i''_1, nogenerate
 	replace phat_`i' = . if test == 0
 	
@@ -122,14 +122,14 @@ forvalues i = 1/3 {
 
 }
 
-forvalues i = 1/3 {
+forvalues i = 1/4 {
 	qui sum ACC_`i' if test==1
 	local ACC_`i' = sqrt(r(sum))*100/r(N)
 }
 *Find minimum
-local minimum = min(`ACC_1',`ACC_2',`ACC_3' )
+local minimum = min(`ACC_1',`ACC_2',`ACC_3',`ACC_4' )
 
-forvalues i = 1/3 {
+forvalues i = 1/4 {
 	if `ACC_`i'' == `minimum' {
 		local asterisk "*"
 	}
@@ -143,6 +143,7 @@ forvalues i = 1/3 {
 
 *Add a little jitter to improve visibility
 replace phat_3 = 1.005*phat_3
+replace phat_4 = 1.009*phat_4
 
 
 tsset month, monthly
@@ -152,14 +153,16 @@ tsset month, monthly
 			(tsline phat_1, lcolor(pink) 									lwidth(*2.8) lpattern(solid))	///
 			(tsline phat_2, lcolor(orange) 								lwidth(*2.8) lpattern(solid))	///
 			(tsline phat_3, lcolor(blue) 									lwidth(*2.8) lpattern(solid))	///
+			(tsline phat_4, lcolor(sandb) 									lwidth(*2.8) lpattern(solid)) ///	
 				,  ///
 			legend(position(6) symxsize(*.45) keygap() ///
-			order(1 2 3 4 5) cols(4)  ///
+			order(1 2 3 4 5 6) cols(4)  ///
 			label(1 "Train") ///
 			label(2 "Test") ///
 			label(3 "M_I`Mtext_1'") ///
 			label(4 "M_II`Mtext_2'") ///
 			label(5 "M_III`Mtext_3'") ///
+			label(6 "M_IV`Mtext_4'") ///
 		region(color(white)) ) ///
 		ytitle("") ttitle("") graphregion(color(white)) ///
 		yscale(nofextend) xscale(nofextend) ylabel(,nogrid) tlabel(#2) ///
@@ -194,7 +197,7 @@ replace tbest = "*" if best == test_accuracy
 gen stringmodel = "M_I"
 replace stringmodel = "M_II"  if model == 2
 replace stringmodel = "M_III"  if model == 3
-
+replace stringmodel = "M_IV"  if model == 4
 
 gen tmodel = stringmodel+tbest
 
@@ -213,10 +216,10 @@ graph combine A.gph B.gph C.gph D.gph, graphregion(color(white)) iscale(*.95) co
 graph export tochange.svg, replace
 filefilter tochange.svg totransform.svg, from(`"stroke-width:6.46"') to(`"stroke-width:6.00; opacity:.65"') replace 
 
-capture erase figure6.png
+capture erase figure_D1.png
 			
 *Use inkscape to transform svg into png
-!inkscape "`dir'/totransform.svg" --without-gui --export-dpi=1800 --export-png  "`dir'/figure6.png"                                                
+!inkscape "`dir'/totransform.svg" --without-gui --export-dpi=1800 --export-png  "`dir'/figure_D1.png"                                                
 
 window manage close graph
 
