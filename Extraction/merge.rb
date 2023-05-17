@@ -1,4 +1,5 @@
 corpora = ["familjeliv","svt","gp","da","flashback","twitter","bloggmix"]
+
 require_relative "corpus_tools"
 #also shrinking and simplifying predictors
 status_index = nil
