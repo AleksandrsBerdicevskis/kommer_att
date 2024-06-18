@@ -1,5 +1,5 @@
 1. The folder "Extraction" contains all the tools that are necessary to reproduce the automatic extraction and annotation of data.
-It is not recommended to reproduce this step. First, you would have to go through a slow and unstable process of downloading several gigabytes of data. Second, since the source corpora have been updated after we performed the data extraction, the resulting dataset will no be identical to the one we used in the study. It will contain more observations, and their ids will not fully match the ids in our dataset. 
+It is not recommended to reproduce this step. First, you would have to go through a slow and unstable process of downloading several gigabytes of data. Second, since the source corpora have been updated after we performed the data extraction, the resulting dataset will not be identical to the one we used in the study. It will contain more observations, and their ids will not fully match the ids in our dataset. 
 
 The full dataset that we used can be found at http://demo.spraakdata.gu.se/sasha/kommer_att_predictors_all.zip
 
